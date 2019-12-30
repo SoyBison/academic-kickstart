@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.30)  30 DEC 2019 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.30)  30 DEC 2019 16:47
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -10,8 +10,8 @@ Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter d
 ocument class
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\siz
-e11.clo"
-File: size11.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+e10.clo"
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox
 \etoolbox.sty"
@@ -405,92 +405,363 @@ tter compatibility patches
 \bibindent=\skip67
 )
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/moderncv
-\moderncvstylebanking.sty"
-Package: moderncvstylebanking 2015/07/28 v2.0.0 modern curriculum vitae and let
-ter style scheme: banking
+\moderncvstyleclassic.sty"
+Package: moderncvstyleclassic 2015/07/28 v2.0.0 modern curriculum vitae and let
+ter style scheme: classic
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tex-gyre
-\tgpagella.sty"
-Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/moderncv
+\moderncviconsmarvosym.sty"
+Package: moderncviconsmarvosym 2015/07/28 v2.0.0 modern curriculum vitae and le
+tter icons: marvosym
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek
-\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/fron
+tendlayer\tikz.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basi
+clayer\pgf.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/util
+ities\pgfrcs.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen141
+\pgfutil@tempdimb=\dimen142
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
-ek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgfutil-common-lists.tex"))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgfutil-latex.def"
+\pgfutil@abb=\box48
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\every
+shi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgfrcs.code.tex"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pg
+f.revision.tex")
+Package: pgfrcs 2019/12/21 v3.1.5a (3.1.5a)
+))
+Package: pgf 2019/12/21 v3.1.5a (3.1.5a)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basi
+clayer\pgfcore.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/syst
+emlayer\pgfsys.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/sy
+stemlayer\pgfsys.code.tex"
+Package: pgfsys 2019/12/21 v3.1.5a (3.1.5a)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen143
+\pgf@y=\dimen144
+\pgf@xa=\dimen145
+\pgf@ya=\dimen146
+\pgf@xb=\dimen147
+\pgf@yb=\dimen148
+\pgf@xc=\dimen149
+\pgf@yc=\dimen150
+\pgf@xd=\dimen151
+\pgf@yd=\dimen152
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count185
+\c@pgf@countb=\count186
+\c@pgf@countc=\count187
+\c@pgf@countd=\count188
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count189
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/sy
+stemlayer\pgf.cfg"
+File: pgf.cfg 2019/12/21 v3.1.5a (3.1.5a)
 )
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
-ek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
-ek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/sy
+stemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/12/21 v3.1.5a (3.1.5a)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/sy
+stemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/12/21 v3.1.5a (3.1.5a)
+)))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/sy
+stemlayer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgfsyssoftpath@smallbuffer@items=\count190
+\pgfsyssoftpath@bigbuffer@items=\count191
 )
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
-ek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/sy
+stemlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcore.code.tex"
+Package: pgfcore 2019/12/21 v3.1.5a (3.1.5a)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmath.code.tex"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathcalc.code.tex"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathutil.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count192
+\pgfmath@box=\box49
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.code.tex"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.basic.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.trigonometric.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.random.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.comparison.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.base.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.round.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.misc.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfunctions.integerarithmetics.code.tex")))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count193
+))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfint.code.tex")
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgfpic=\box50
+\pgf@hbox=\box51
+\pgf@layerbox@main=\box52
+\pgf@picture@serial@count=\count194
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgflinewidth=\dimen172
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgfarrowsep=\dimen176
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgf@max=\dimen177
+\pgf@sys@shading@range@num=\count195
+\pgf@shadingcount=\count196
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgfexternal@startupbox=\box53
+))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ba
+siclayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/mo
+dules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgfnodeparttextbox=\box54
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/mo
+dules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/comp
+atibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2019/12/21 v3.1.5a (3.1.5a)
+\pgf@nodesepstart=\dimen178
+\pgf@nodesepend=\dimen179
+)
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/comp
+atibility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2019/12/21 v3.1.5a (3.1.5a)
+))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/util
+ities\pgffor.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/util
+ities\pgfkeys.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgfkeys.code.tex"))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math
+\pgfmath.sty"
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmath.code.tex"))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ut
+ilities\pgffor.code.tex"
+Package: pgffor 2019/12/21 v3.1.5a (3.1.5a)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/ma
+th\pgfmath.code.tex")
+\pgffor@iter=\dimen180
+\pgffor@skip=\dimen181
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/fr
+ontendlayer/tikz\tikz.code.tex"
+Package: tikz 2019/12/21 v3.1.5a (3.1.5a)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/li
+braries\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgf@plot@mark@count=\count197
+\pgfplotmarksize=\dimen182
+)
+\tikz@lastx=\dimen183
+\tikz@lasty=\dimen184
+\tikz@lastxsaved=\dimen185
+\tikz@lastysaved=\dimen186
+\tikz@lastmovetox=\dimen187
+\tikz@lastmovetoy=\dimen188
+\tikzleveldistance=\dimen189
+\tikzsiblingdistance=\dimen190
+\tikz@figbox=\box55
+\tikz@figbox@bg=\box56
+\tikz@tempbox=\box57
+\tikz@tempbox@bg=\box58
+\tikztreelevel=\count198
+\tikznumberofchildren=\count199
+\tikznumberofcurrentchild=\count266
+\tikz@fig@count=\count267
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/mo
+dules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2019/12/21 v3.1.5a (3.1.5a)
+\pgfmatrixcurrentrow=\count268
+\pgfmatrixcurrentcolumn=\count269
+\pgf@matrix@numberofcolumns=\count270
+)
+\tikz@expandcount=\count271
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/fr
+ontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2019/12/21 v3.1.5a (3.1.5a)
 ))))
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/moderncv
-\moderncviconsawesome.sty"
-Package: moderncviconsawesome 2015/07/28 v2.0.0 modern curriculum vitae and let
-ter icons: awesome
+\moderncvheadi.sty"
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawes
-ome\fontawesome.sty"
-Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+LaTeX Warning: You have requested package `moderncvheadi',
+               but the package provides `moderncvheadi'.
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawes
-ome\fontawesomesymbols-generic.tex")
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawes
-ome\fontawesomesymbols-pdftex.tex")))
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/moderncv
-\moderncvheadiii.sty"
-
-LaTeX Warning: You have requested package `moderncvheadiii',
-               but the package provides `moderncvheadiii'.
-
-Package: moderncvheadiii 2015/07/28 v2.0.0 modern curriculum vitae and letter h
-eader variant: 3
-\makeheaddetailsbox=\box48
-\makeheaddetailstempbox=\box49
-\makeheaddetailswidth=\skip68
-\makeheaddetailsboxwidth=\skip69
-\quotewidth=\skip70
+Package: moderncvheadi 2015/07/28 v2.0.0 modern curriculum vitae and letter hea
+der variant: 1
+\quotewidth=\skip68
+\makecvheadnamewidth=\skip69
 )
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/moderncv
-\moderncvbodyiii.sty"
+\moderncvbodyi.sty"
 
-LaTeX Warning: You have requested package `moderncvbodyiii',
-               but the package provides `moderncvbodyiii'.
+LaTeX Warning: You have requested package `moderncvbodyi',
+               but the package provides `moderncvbodyi'.
 
-Package: moderncvbodyiii 2015/07/28 v2.0.0 modern curriculum vitae and letter b
-ody variant: 3
-\hintscolumnwidth=\skip71
-\separatorcolumnwidth=\skip72
-\maincolumnwidth=\skip73
-\doubleitemcolumnwidth=\skip74
-\listitemsymbolwidth=\skip75
-LaTeX Font Info:    Trying to load font information for T1+qpl on input line 85
-.
+Package: moderncvbodyi 2015/07/28 v2.0.0 modern curriculum vitae and letter bod
+y variant: 1
+\hintscolumnwidth=\skip70
+\separatorcolumnwidth=\skip71
+\maincolumnwidth=\skip72
+\doubleitemcolumnwidth=\skip73
+\listitemsymbolwidth=\skip74
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 46.
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tex-gyre
-\t1qpl.fd"
-File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-)
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 85.
 
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawes
-ome\ufontawesometwo.fd"
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-\listitemcolumnwidth=\skip76
-\listdoubleitemcolumnwidth=\skip77
-\cvitemwithcommentmainbox=\box50
-\cvitemwithcommentmainlength=\skip78
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/marvosym
+\umvs.fd")
+\listitemcolumnwidth=\skip75
+\listdoubleitemcolumnwidth=\skip76
+\baseletterheight=\skip77
+\cvitemwithcommentbox=\box59
+\cvitemwithcommentskilllength=\skip78
 \cvitemwithcommentcommentlength=\skip79
 ))
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/moderncv
@@ -501,8 +772,8 @@ r color scheme: black
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inp
 utenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
 )
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry
 \geometry.sty"
@@ -516,33 +787,61 @@ Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count185
-\Gm@cntv=\count186
-\c@Gm@tempcnt=\count187
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks20
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen191
+\Gm@wd@mp=\dimen192
+\Gm@odd@mp=\dimen193
+\Gm@even@mp=\dimen194
+\Gm@layoutwidth=\dimen195
+\Gm@layoutheight=\dimen196
+\Gm@layouthoffset=\dimen197
+\Gm@layoutvoffset=\dimen198
+\Gm@dimlist=\toks32
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry
 \geometry.cfg"))
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\ta
+bularx.sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen199
+\TX@old@table=\dimen256
+\TX@old@col=\dimen257
+\TX@target=\dimen258
+\TX@delta=\dimen259
+\TX@cols=\count275
+\TX@ftn=\toks33
+)
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref
 \hyperref.sty"
 Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
 
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
+ek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcm
 ds\pdftexcmds.sty"
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
+ek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
+ek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
+ek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+))
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
 ek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
@@ -571,9 +870,13 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 \auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen149
-\Hy@linkcounter=\count188
-\Hy@pagecounter=\count189
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek
+\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen260
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref
 \pd1enc.def"
@@ -585,7 +888,7 @@ Now handling font encoding PD1 ...
 ek\intcalc.sty"
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count190
+\Hy@SavedSpaceFactor=\count278
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex
 \hyperref.cfg"
@@ -606,9 +909,9 @@ Package hyperref Info: Plain pages OFF on input line 4550.
 Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count191
+\c@Hy@tempcnt=\count279
 LaTeX Info: Redefining \url on input line 5147.
-\XeTeXLinkMargin=\dimen150
+\XeTeXLinkMargin=\dimen261
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdi
 ek\bitset.sty"
@@ -619,9 +922,9 @@ ek\bigintcalc.sty"
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count192
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
+\Fld@menulength=\count280
+\Field@Width=\dimen262
+\Fld@charsize=\dimen263
 Package hyperref Info: Hyper figures OFF on input line 6418.
 Package hyperref Info: Link nesting OFF on input line 6423.
 Package hyperref Info: Hyper index ON on input line 6426.
@@ -636,9 +939,9 @@ LaTeX Info: Redefining \pageref on input line 6492.
 ek\atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-\Hy@abspage=\count193
-\c@Item=\count194
-\c@Hfootnote=\count195
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -650,8 +953,8 @@ File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
 \atveryend.sty"
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count196
-\c@bookmark@seq@number=\count197
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek
 \rerunfilecheck.sty"
@@ -666,30 +969,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip80
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 29.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 29.
-
-No file cv.aux.
+Package hyperref Info: Option `breaklinks' set `true' on input line 30.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 30.
+ (cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
+0.
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lms
 s.fd"
@@ -698,17 +1000,17 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/m
 kii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count198
-\scratchdimen=\dimen153
-\scratchbox=\box51
-\nofMPsegments=\count199
-\nofMParguments=\count266
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count267
-\MPscratchDim=\dimen154
-\MPnumerator=\count268
-\makeMPintoPDFobject=\count269
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count286
+\scratchdimen=\dimen264
+\scratchbox=\box60
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen265
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks35
 )
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf
 -pkg\epstopdf-base.sty"
@@ -725,14 +1027,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
-LaTeX Info: Redefining \microtypecontext on input line 29.
+LaTeX Info: Redefining \microtypecontext on input line 30.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 29.
+LaTeX Info: Redefining \showhyphens on input line 30.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -740,7 +1042,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
+ ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -749,23 +1051,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(74.68848pt, 448.1309pt, 74.68849pt)
-* v-part:(T,H,B)=(84.50467pt, 633.78513pt, 126.75705pt)
+* h-part:(L,W,R)=(29.87721pt, 537.75343pt, 29.87723pt)
+* v-part:(T,H,B)=(33.80392pt, 760.53699pt, 50.70593pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=448.1309pt
-* \textheight=633.78513pt
-* \oddsidemargin=2.41849pt
-* \evensidemargin=2.41849pt
-* \topmargin=-24.76532pt
+* \textwidth=537.75343pt
+* \textheight=760.53699pt
+* \oddsidemargin=-42.39278pt
+* \evensidemargin=-42.39278pt
+* \topmargin=-75.46606pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -775,8 +1077,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 29.
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring OFF on input line 30.
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref
 \nameref.sty"
@@ -790,32 +1092,18 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 ek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count270
+\c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
-\@outlinefile=\write3
-\openout3 = `cv.out'.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
+ (cv.out) (cv.out)
+\@outlinefile=\write4
+\openout4 = `cv.out'.
 
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 30.
-
-("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtyp
-e\mt-ppl.cfg"
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
-LaTeX Font Info:    Trying to load font information for OMS+qpl on input line 3
-0.
-LaTeX Font Info:    No file OMSqpl.fd. on input line 30.
-
-
-LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 30.
-
+\makecvheaddetailsbox=\box62
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-0.
+1.
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lm
 r.fd"
@@ -827,85 +1115,96 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-0.
+1.
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllm
 m.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-30.
+31.
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslm
 sy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-30.
+31.
 
 ("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlm
 ex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 30.
+(Font)              <9> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <6> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <5> on input line 31.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+("C:\Users\Coen D. Needell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtyp
+e\mt-mvs.cfg"
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+\makecvheadpicturebox=\box63
+<avatar.jpeg, id=26, 419.5675pt x 420.57124pt>
+File: avatar.jpeg Graphic file (type jpg)
+<use avatar.jpeg>
+Package pdftex.def Info: avatar.jpeg  used on input line 31.
+(pdftex.def)             Requested size: 64.0pt x 64.14824pt.
+\makecvheaddetailswidth=\skip81
+\makecvheadpicturewidth=\skip82
+\makecvheadnamebox=\box64
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 
  []
 
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 32.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 33.
-No file cv.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 33.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/lmss/bx/n/10 Master of Arts in Com-pu-ta-tional So-cial Sci-ence\T1/lmss
+/m/n/10 (+20) , \T1/lmss/m/sl/10 (+20) Uni-ver-sity of Chicago\T1/lmss/m/n/10 (
++20) , Chicago, IL,
+ []
+
 [1
 
-{C:/Users/Coen D. Needell/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
-(cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  40F455AA9CB0DC7F0AB8FA14E36363F8;209.
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+{C:/Users/Coen D. Needell/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <.
+/avatar.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+ (cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: 1298CF305F2A299DBCF28A93B0CE435B;385.
  ) 
 Here is how much of TeX's memory you used:
- 23636 strings out of 492484
- 405370 string characters out of 3117068
- 478662 words of memory out of 3000000
- 27737 multiletter control sequences out of 15000+200000
- 574737 words of font info for 58 fonts, out of 3000000 for 9000
+ 31945 strings out of 492484
+ 602264 string characters out of 3117068
+ 699395 words of memory out of 3000000
+ 35811 multiletter control sequences out of 15000+200000
+ 580515 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,11n,71p,770b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,12n,71p,770b,817s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Coen D. Needell/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/l
-m/lm-ec.enc}{C:/Users/Coen D. Needell/AppData/Local/Programs/MiKTeX 2.9/fonts/e
-nc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/Coen D. Needell/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/C
-oen D. Needell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/Coen D. Needell/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+m/lm-ec.enc}<C:/Users/Coen D. Needell/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmss10.pfb><C:/Users/Coen D. Needell/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Coen D. Needell/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb>
-Output written on cv.pdf (1 page, 102716 bytes).
+eX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/Coen D. Needell/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/Coen D. Needell
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Users/Co
+en D. Needell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.
+pfb><C:/Users/Coen D. Needell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmsso10.pfb><C:/Users/Coen D. Needell/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmsso9.pfb><C:/Users/Coen D. Needell/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on cv.pdf (1 page, 233987 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 12289 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 16434 words of extra memory for PDF output out of 17280 (max. 10000000)
 
