@@ -18,27 +18,46 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Freelance Data Scientist"
+  company = "Upwork"
+  company_url = "https://www.upwork.com/freelancers/~01922a02cfcd8fdc8b"
+  location = "St. Louis, MO"
+  date_start = "2019-05-01"
   date_end = ""
-  description = """
+  description = """ Provided Data Science Services to Various Clients.
   Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+
+  * Interviewing Potential Full-Time Data Scientists
+  * Building Statistical Learning Tools
+  * Natural Language Processing Analysis
+  * Machine Learning Development and Deployment
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Programmer/Data Scientist (Internship)"
+  company = "Washington University in St. Louis: Alumni and Development"
+  company_url = "https://alumni.wustl.edu/Pages/default.aspx"
+  location = "St. Louis, MO"
+  date_start = "2018-05-01"
+  date_end = "2018-08-31"
+  description = """Continued development of previous non-scientific automation. Created new data models for donor identification. Other data analysis and visualization projects."""
+
+ [[experience]]
+ title = "Real Estate Analyst (Internship)"
+ company = "Kairos Investment Management"
+ company_url = "https://kimc.com/"
+ location = "Rancho Santa Margarita, CA"
+ date_start = "2017-05-01"
+ date_end = "2017-08-31"
+ description = """Wrote automation programs for data processing, and constructed a model for optimal rent estimation. Built data mining programs for continued use by analysts."""
+
+ [[experience]]
+ title = "Economics Simulation Programmer"
+ company = "Washington University in St. Louis: Department of Economics"
+ company_url = "https://economics.wustl.edu/"
+ location = "St. Louis, MO"
+ date_start = "2016-05-01"
+ date_end = "2017-08-31"
+ description = """Built macroeconomic simulations for teaching of Economics 4121. Wrote simulations in Mathematica for the ISLMFE model, the Solow-Swan model, and permutations thereof."""
 
 +++
