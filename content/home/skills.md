@@ -54,4 +54,9 @@ subtitle = ""
   icon_pack = 'fas'
   name = 'Writing'
 
+[[feature]]
+  icon = 'gem'
+  icon_pack = 'fas'
+  name = 'Symmetry'
+
 +++
