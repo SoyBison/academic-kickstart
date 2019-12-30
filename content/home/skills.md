@@ -55,8 +55,8 @@ subtitle = ""
   name = 'Writing'
 
 [[feature]]
-  icon = 'gem'
+  icon = 'microscope'
   icon_pack = 'fas'
-  name = 'Symmetry'
+  name = 'Philosophy of Science'
 
 +++
