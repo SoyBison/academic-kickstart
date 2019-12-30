@@ -1,0 +1,42 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%% ModernCV themes
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%% Personal data
+\name{Coen}{D. Needell}
+\address{6120 S. Ellis Ave, 2 South}{60637 Chicago, IL} 
+\mobile{+1~(970)~456~2411}
+\email{coeneedell@gmail.com}
+\social[github]{SoyBison}
+\social[linkedin]{coen-needell-b4503216a}
+\homepage{coeneedell.com}
+
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2019--2021}{Master's of Arts in Computational Social Science}{University of Chicago}{Chicago, IL}{GPA: 3.76}{Focus in Computational Methods and Cultural Patterns. In Progress.}
+\cventry{2015--2019}{Bachelor's of Arts in Economics and Physics}{Washington University in St. Louis}{St. Louis, MO}{GPA: 3.41}{Minor in the Philosophy of Science}
+
+\section{Work Experience}
+%% A publications list
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications} % a bibtex file containing the list of publications
+
+\end{document}
