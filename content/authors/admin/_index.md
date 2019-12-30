@@ -15,12 +15,10 @@ role: Master's Student in Computational Social Science
 # Organizations/Affiliations
 organizations:
 - name: University of Chicago
-  url: ""
+  url: "https://macss.uchicago.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Student, Data Scientist, Philosopher, Mathematician, Freelancer. Ongoing
-Projects include A.I. for Incomplete-Information Games, Spatial Analysis of
-Music, and Analysis of Cultural Patterns.
+bio: Student, Data Scientist, Philosopher, Mathematician, Freelancer. Ongoing Projects include A.I. for Incomplete-Information Games, Spatial Analysis of Music, and Analysis of Cultural Patterns.
 
 interests:
 - Artificial Intelligence
