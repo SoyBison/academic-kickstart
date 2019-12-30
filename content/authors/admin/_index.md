@@ -46,7 +46,7 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: wordpress
   icon_pack: fab
-  link: coeneedell.home.blog
+  link: https://coeneedell.home.blog
 - icon: github
   icon_pack: fab
   link: https://github.com/SoyBison
