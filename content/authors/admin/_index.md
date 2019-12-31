@@ -50,6 +50,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/SoyBison
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/coen-needell-b4503216a/
 - icon: cv
   icon_pack: ai
   link: files/cv.pdf
