@@ -50,8 +50,8 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/SoyBison
-- icon: cv
-  icon_pack: ai
+- icon: file-user
+  icon_pack: fab
   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
