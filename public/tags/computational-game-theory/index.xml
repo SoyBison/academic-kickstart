@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Game Theory on Coen D. Needell</title>
+    <link>https://www.coeneedell.com/tags/computational-game-theory/</link>
+    <description>Recent content in Computational Game Theory on Coen D. Needell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy {2019}</copyright>
+    <lastBuildDate>Tue, 31 Dec 2019 17:09:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.coeneedell.com/tags/computational-game-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fluxx for Robots</title>
+      <link>https://www.coeneedell.com/project/fluxx-for-robots/</link>
+      <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
+      
+      <guid>https://www.coeneedell.com/project/fluxx-for-robots/</guid>
+      <description>Fluxx Introduction: Fluxx is a mildly popular card game. All things considered, it&#39;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
+    </item>
+    
+    <item>
+      <title>Fluxx for Robots</title>
+      <link>https://www.coeneedell.com/projects/fluxx-for-robots/</link>
+      <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/fluxx-for-robots/</guid>
+      <description>Fluxx Introduction: Fluxx is a mildly popular card game. All things considered, it&#39;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
+    </item>
+    
+  </channel>
+</rss>

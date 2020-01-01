@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Coen D. Needell</title>
+    <link>https://www.coeneedell.com/tags/</link>
+    <description>Recent content in Tags on Coen D. Needell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy {2019}</copyright>
+    <lastBuildDate>Tue, 31 Dec 2019 17:09:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.coeneedell.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computational Game Theory</title>
+      <link>https://www.coeneedell.com/tags/computational-game-theory/</link>
+      <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/computational-game-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://www.coeneedell.com/tags/machine-learning/</link>
+      <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
