@@ -1,7 +1,8 @@
 ---
 title: "Ongaku"
 date: 2020-01-23T10:41:17-06:00
-draft: true
+draft: false
+tags: ['Machine Learning', 'Music']
 ---
 
 ## Overview
