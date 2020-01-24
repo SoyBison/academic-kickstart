@@ -12,7 +12,7 @@ Ongaku is a method for creating playlists programmatically, using only the conte
 The gammatone cepstra are then compiled together into a corpus, which is used for manifold learning (using sklearn). This creates a metric space for the songs in the library. The manifold learning process needs to be tuned to idealize the playlist outputs, but this is something which is difficult to define mathematically. I've had good results with `n_components = 45` but your mileage may vary. I've defined a few rudimentary metrics which can be optimized over as well. We can draw shapes in this metric space, to define playlists.
 
 The code will be documented in full at
-[readthedocs](https://readthedocs.org/projects/ongaku/.)
+[readthedocs](https://ongaku.readthedocs.io)
 
 The package is available on [github](https://github.com/SoyBison/ongaku)
 
