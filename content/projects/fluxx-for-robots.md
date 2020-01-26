@@ -5,8 +5,6 @@ tags: ['Machine Learning', 'Computational Game Theory']
 draft: false
 ---
 
-# Fluxx
-
 ### Introduction:
 
 Fluxx is a mildly popular card game. All things considered, it's
