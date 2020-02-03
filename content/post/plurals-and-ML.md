@@ -108,9 +108,7 @@ outvecs = map_encode(*clean.transpose()[1])
 A letter-by-letter model works with two inputs, the singular word, and the last _n_ letters that the model has guessed. In the below diagram, _x_ represents the singular word, and the plural word is _l_. The subscript on _l_ represents the _t<sup>th</sup>_ letter in the word. _h_ represents a hidden layer, and _c_ represents a concatenate layer, or a layer which serves to merge two layers. For our purposes, each of these layers are densely connected.
 
 
-<div style='text-align:center'>
-<img src='../../static/posts/leefloag/lbl.png'>
-</div>
+![image](/img/aao.png)
 
 
 
@@ -245,7 +243,7 @@ In the diagram below, _x_ is the singular version of the word, the _h<sup>i</sup
 
 
 <div style='text-align:center'>
-<img src='../../static/posts/leefloag/aoo.png'>
+<img src='/static/img/aoo.png'>
 </div>
 
 Here's the code I used:
