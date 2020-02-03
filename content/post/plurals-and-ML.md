@@ -4,7 +4,6 @@ date: 2020-01-24T16:39:07-06:00
 draft: false
 tags: ['Machine Learning', 'Natural Language', 'Deep Learning']
 ---
-
 # Plurals and Machine Learning
 
 Using older machine learning models to conjugate English verbs produced rather silly results. These models performed at an acceptable level for many words, but when given nonsense words as an input these models would produce humorous conjugations. For [example](https://books.google.com/books?id=2cEuBgAAQBAJ&pg=PA144&lpg=PA144&dq=smeej+leefloag&source=bl&ots=y2F6Lge_uw&sig=ACfU3U0WPSRcA2Pwu8O0NqUm00dsExNyNw&hl=en&sa=X&ved=2ahUKEwiW4MbOqJ3nAhUDB50JHfvvB5wQ6AEwAHoECAsQAQ#v=onepage&q=smeej%20leefloag&f=false), we have:
@@ -109,8 +108,9 @@ outvecs = map_encode(*clean.transpose()[1])
 A letter-by-letter model works with two inputs, the singular word, and the last _n_ letters that the model has guessed. In the below diagram, _x_ represents the singular word, and the plural word is _l_. The subscript on _l_ represents the _t<sup>th</sup>_ letter in the word. _h_ represents a hidden layer, and _c_ represents a concatenate layer, or a layer which serves to merge two layers. For our purposes, each of these layers are densely connected.
 
 
-{{< figure library="true" src="aoo.jpg" title="A caption" lightbox="true" >}}
-
+<div style='text-align:center'>
+<img src='../../static/img/leefloag/lbl.png'>
+</div>
 
 
  For example, let's say we input the word 'coen'. In that case _x_ is 'coen', and we'll run the model until the output _l<sub>t</sub>_ is the end of frame character `'?'`. For this illustration we'll use _n_ = 3, but in the real model I got good results with _n_ = 7. Assuming a correct model, when we input 'coen', we run the first round with `x = 'coen'` and `l = '???'`. We run the model once with these inputs, and it tells us that _l<sub>0</sub>_ = `'c'`. Now we run it again with `l = '??c'`, it tells us that _l<sub>1</sub>_ = `'o'`. Again and we get `'e'`, then `'n'`, then `'s'`, and then `'?'`, leaving us with a final answer of `l = 'coens'`.
@@ -244,7 +244,7 @@ In the diagram below, _x_ is the singular version of the word, the _h<sup>i</sup
 
 
 <div style='text-align:center'>
-<img src='/static/img/aoo.png'>
+<img src='../../static/img/leefloag/aoo.png'>
 </div>
 
 Here's the code I used:
