@@ -109,7 +109,7 @@ A letter-by-letter model works with two inputs, the singular word, and the last 
 
 
 <div style='text-align:center'>
-<img src='Resources/lbl.png'>
+<img src='../../static/posts/leefloag/lbl.png'>
 </div>
 
 
@@ -243,8 +243,9 @@ Wow, that's... awful.
 An all-at-once model works by taking the singular word as an input, pushes it through a hidden network, and then produces an output letter for each possible letter (up to a maximum length, which is determined by the length of the longest word in the corpus).
 In the diagram below, _x_ is the singular version of the word, the _h<sup>i</sup><sub>j</sub>_ are hidden layers, and _y<sub>t</sub>_ are the _t<sup>th</sup>_ letter in the plural word. This is conceptually a lot simpler than the letter-by-letter model, although producing all-at-once models in tensorflow can be a little more complicated.
 
-<div style='text-align:center;  width=.5'>
-<img src='Resources/aoo.png'>
+
+<div style='text-align:center'>
+<img src='../../static/posts/leefloag/aoo.png'>
 </div>
 
 Here's the code I used:
