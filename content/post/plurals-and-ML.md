@@ -4,6 +4,7 @@ date: 2020-01-24T16:39:07-06:00
 draft: false
 tags: ['Machine Learning', 'Natural Language', 'Deep Learning']
 ---
+
 # Plurals and Machine Learning
 
 Using older machine learning models to conjugate English verbs produced rather silly results. These models performed at an acceptable level for many words, but when given nonsense words as an input these models would produce humorous conjugations. For [example](https://books.google.com/books?id=2cEuBgAAQBAJ&pg=PA144&lpg=PA144&dq=smeej+leefloag&source=bl&ots=y2F6Lge_uw&sig=ACfU3U0WPSRcA2Pwu8O0NqUm00dsExNyNw&hl=en&sa=X&ved=2ahUKEwiW4MbOqJ3nAhUDB50JHfvvB5wQ6AEwAHoECAsQAQ#v=onepage&q=smeej%20leefloag&f=false), we have:
@@ -309,7 +310,7 @@ Here's a table of selected results. On my laptop, with an Nvidia 1070 GPU, this 
 |focus|foci|foci|
 |torus|tori|tori|
 |house|house|houses|
-|frilg|frilgs|filges|
+|frilg|frilgs|frilges|
 |walrus|walrus|walruses/walrii|
 
 </center>
