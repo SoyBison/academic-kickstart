@@ -19,7 +19,7 @@ draft: false
 
 <div class="text_cell_render border-box-sizing rendered_html">
 
-### How do indie musicians use visual signs to indicate their subgenre?[¶](#How-do-indie-musicians-use-visual-signs-to-indicate-their-subgenre?){.anchor-link} {#How-do-indie-musicians-use-visual-signs-to-indicate-their-subgenre?}
+### How do indie musicians use visual signs to indicate their subgenre?
 
 This exploration will work by gathering album covers from bandcamp.
 
@@ -610,7 +610,7 @@ luminescence tends to be lower for hip-hop than chillhop. This aligns
 with the cultural feeling that chillhop is not for serious point making,
 or high emotion, it's intended to be light and relaxing.
 
-### Next Steps[¶](#Next-Steps){.anchor-link} {#Next-Steps}
+### Next Steps
 
 Next steps for me would be to look for similar patterns in other genres
 and subgenres. For example, we can look at the subgenre 'acoustic
