@@ -20,6 +20,8 @@ tags: ['Cultural Patterns', 'Music', 'Color Analysis', 'Statistical Learning']
 
 <div class="text_cell_render border-box-sizing rendered_html">
 
+This is an ongoing project, full details are availible [here](https://www.coeneedell.com/projects/bandcamp_analysis/) and on [github](https://github.com/SoyBison/bandcamp-album-analysis)
+
 ### How do indie musicians use visual signs to indicate their subgenre?
 
 This exploration will work by gathering album covers from bandcamp.
