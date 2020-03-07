@@ -1,5 +1,5 @@
 ---
-title: "Bandcamp_prelims"
+title: "Bandcamp Cover Art Preliminary Analysis"
 date: 2020-03-07T14:46:56-06:00
 draft: false
 tags: ['Cultural Patterns', 'Music', 'Color Analysis', 'Statistical Learning']
