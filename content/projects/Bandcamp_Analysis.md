@@ -16,7 +16,7 @@ This is a project to look into the question:
 
 The main functions are in `bandcamp_webtools.py`, and do basic web scraping. Analysis will be done in the jupyter notebooks `Proposal.ipynb`, `Prelims.ipynb`, and `Analysis.ipynb`. These will also be uploaded as blog posts to [my website](https://www.coeneedell.com). The github repository can be found [here](https://github.com/SoyBison/bandcamp-album-analysis).
 
-The Exploratory analysis (corresponding to `Proposal.ipynb`) can also be found at [this blog post.](http://www.coeneedell.com/post/bandcamp_proposal)
+The Exploratory analysis (corresponding to `Proposal.ipynb`) can also be found at [this blog post.](http://www.coeneedell.com/post/bandcamp_proposal) The preliminary analysis (corresponding to `Prelims.ipynb`) can be found at [this blog post.](https://www.coeneedell.com/post/bandcamp_prelims/)
 
 ## Core Concepts
 
