@@ -4,6 +4,7 @@ author: "Coen D. Needell"
 date: 2020-03-30T15:19:58-05:00
 draft: false
 math: false
+tags: ['Cultural Patterns', 'Music', 'Color Analysis', 'Statistical Learning']
 ---
 
 ## Introduction
