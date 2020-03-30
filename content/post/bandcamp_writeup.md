@@ -3,6 +3,7 @@ title: "Color Analysis of Bandcamp Album Cover Art"
 author: "Coen D. Needell"
 date: 2020-03-30T15:19:58-05:00
 draft: false
+math: false
 ---
 
 ## Introduction
@@ -156,7 +157,7 @@ plt.show()
 ```
 
 
-![svg](Writeup_files/Writeup_4_0.svg)
+![svg](../../img/Writeup_files/Writeup_4_0.svg)
 
 
 The above plot shows the distribution of our dataset across the major tags (as defined by Bandcamp itself.) We see a dominant show from "experimental", "electronic", and "ambient". There's sure to be some crossover between electronic and ambient, and Bandcamp was originally popularized by the electronic scene. As for "experimental," well, who doesn't call themselves experimental?
@@ -200,7 +201,7 @@ plt.show()
 ```
 
 
-![svg](Writeup_files/Writeup_10_0.svg)
+![svg](../../img/Writeup_files/Writeup_10_0.svg)
 
 
 This decomposes quite nicely. We can easily identify sets of Earth Tones(16), Sea Tones(11-12), Skin Tones(8), and Florals(3-4). 
@@ -226,7 +227,7 @@ for tag, ax in zip(major_tags, axs.flat):
 ```
 
 
-![svg](Writeup_files/Writeup_13_0.svg)
+![svg](../../img/Writeup_files/Writeup_13_0.svg)
 
 
 The first thing we notice is that every major tag has a large number of albums that use grayscale as their dominant color-topic. Barring pop and hip-hop/rap, topic # 9 is the most common dominant color-topic in every major tag. We see that some color-topics are just more common in general. Remember that this particular plot only shows us how many albums have each color-topic as their most dominant topic, so from it alone, we can't make any inferences about mixtures of topics. We can, however, see that some topics are uniquely focused on by some tags. Topic # 7 is popular among many tags but is uniquely dominant in punk. Topic # 7 is constructed out of gray-scale, with pops of color, primarily a dark red and a neon green. A possible interpretation for this is that this topic represents the use of contrast. The punk-music scene has as a common theme the idea of standing out, uniqueness. It stands to reason that this topic is being used to signify that sense of societal isolation. Another feature like this is in pop, rock, and hip-hop/rap tags. These tags are generally thought of as the "mainstream" tags, these tags share a feature; all three have a large number of albums dominated by topics 12 and 13, topics I would term as sea tones and forest tones. These colors are generally associated with natural scenes, associating the artist with the Earth and nature. Topic # 6 also sees heavier use in these tags, this is the skin-tone topic. This implies that a lot of artists in these tags will use people, most likely themselves, in their album covers. This can emphasize to the listener that this music is an embodiment of the artist's self. 
@@ -259,7 +260,7 @@ plt.show()
 ```
 
 
-![svg](Writeup_files/Writeup_15_0.svg)
+![svg](../../img/Writeup_files/Writeup_15_0.svg)
 
 
 The first thing that we notice compared with the more generalized plots is the fact that topics 14 and 15 actually appear as secondary and tertiary topics, whereas they're practically never dominant. We see grayscale takes a plunge in popularity after the secondary level. We also see that topic # 7 is very common as a tertiary topic in electronic music. Topic # 7 is the contrast topic that we discussed before in the context of punk music. In this context, the contrast is less the point and more of an accent. Electronic music is often intended to be a vision of the future, and not much invokes those same feelings as brightly colored lights in the darkness. That is probably where this topic is coming in, again, not as the focus of the piece, but still there. We also see that topic number 8, skin tones, is rarely seen in the context of electronic music. In many cases, depicting a human on the album cover for electronica would send the wrong message, so it's omitted. 
