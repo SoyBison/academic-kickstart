@@ -64,3 +64,7 @@ email: "coeneedell@gmail.com"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups: []
 ---
+
+I am a student in the Masters of Computational Social Science program at the University of Chicago. As an undergraduate, I went to Washington University in St. Louis, where I majored in Physics and Economics, and minored in the Philosophy of Science. My work focuses on developing novel methods for social scientific concepts. Currently I'm working in the Brain Bridge Lab, working on leveraging computer vision models to study memory and memorability. My hobbies include analyzing video games, cooking, and writing short stories.
+
+This site is intended to be a place for me to post my projects, some personal, some academic. They are mostly computational in nature, but some are philosophical. 
