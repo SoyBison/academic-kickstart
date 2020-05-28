@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2020-03-01"
   date_end = ""
   description = """
-    Developed Computer Vision models for understanding memory and memorability.
+  Developed Computer Vision models for understanding memory and memorability.
   """
 [[experience]]
   title = "Freelance Data Scientist"
