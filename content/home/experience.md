@@ -18,6 +18,16 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Research Assistant"
+  company = University of Chicago, Brain Bridge Lab
+  company_url = https://brainbridgelab.uchicago.edu/
+  location = "Chicago, IL"
+  date_start = "2020-03-01"
+  date_end = ""
+  description = """
+    Developed Computer Vision models for understanding memory and memorability.
+  """
+[[experience]]
   title = "Freelance Data Scientist"
   company = "Upwork"
   company_url = "https://www.upwork.com/freelancers/~01922a02cfcd8fdc8b"
