@@ -22,9 +22,6 @@ date: 2020-06-09T00:56:04-05:00
   
 </head>
 <body>
-<header id="title-block-header">
-<h1 class="title">Sex, Conspiracy, and Video Games: Urban Legends on the Internet</h1>
-<p class="author">Coen D. Needell<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 </header>
 <h2 id="introduction">Introduction</h2>
 <p>Urban Legends, or Contemporary Legends, are a type of folklore popularized by Jan Harold Brunvand in his book: <em>The Vanishing Hitchhiker: American Urban Legends &amp; Their Meanings</em>. Urban Legends are considered to be the modern continuation of the human tradition of folklore and legends. Folklore does not occur exclusively in so-called primitive or traditional societies, and by studying modern folklore in the same way that we study the folklore of traditional societies, we can also learn about modern societies<span class="citation" data-cites="brunvand2003vanishing">(Brunvand 2003)</span>. Urban Legends, like their past counterparts, form as complete stories with plot and characters, although the exact identities of these characters tend to stay vague, unlike mythic stories.</p>
