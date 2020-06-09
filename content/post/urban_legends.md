@@ -5,24 +5,7 @@ draft: false
 tags: ['Machine Learning', 'Cultural Patterns', 'Urban Legends', 'Internet Culture', 'Digital Archaeology']
 date: 2020-06-09T00:56:04-05:00
 ---
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Coen D. Needell" />
-  <title>Sex, Conspiracy, and Video Games: Urban Legends on the Internet</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  
-</head>
-<body>
-</header>
+
 <h2 id="introduction">Introduction</h2>
 <p>Urban Legends, or Contemporary Legends, are a type of folklore popularized by Jan Harold Brunvand in his book: <em>The Vanishing Hitchhiker: American Urban Legends &amp; Their Meanings</em>. Urban Legends are considered to be the modern continuation of the human tradition of folklore and legends. Folklore does not occur exclusively in so-called primitive or traditional societies, and by studying modern folklore in the same way that we study the folklore of traditional societies, we can also learn about modern societies<span class="citation" data-cites="brunvand2003vanishing">(Brunvand 2003)</span>. Urban Legends, like their past counterparts, form as complete stories with plot and characters, although the exact identities of these characters tend to stay vague, unlike mythic stories.</p>
 <p>We have to focus our attention though and draw boundaries between legend, fake news, conspiracy theory, conjecture, and so on. We are all fully aware that the systems that make the Internet a breeding ground for urban legend, also make it a fantastic substrate for the other types of rumor and hearsay <span class="citation" data-cites="Slenderboi">(Blank and McNeille 2018)</span>. For our purposes, we will consider the genre of “Urban Legend” to be defined by the fact that the people who spread the legend know that it isn’t true. Conspiracy theories tend to be spread by the true believers, and fake news tends not to be spread by people, but by robots and organizations. In addition, the Urban Legend tends to take place in a fuzzy time-frame, the near past. Generally, the Legend happened in a less-specific time, the storyteller will not give a date, nor even a month in which the story occurred. Only in the most specific of legends will the story include, at most, a season in which the story occurred, but rarely a specific year. Some examples include the story of the arcade cabinet, Polybius, that supposedly appeared in a Portland area bar in the summer of 1983. The story goes that the cabinet was responsible for children and teens forming a line out the door, until it eventually hospitalized a kid who had played it for too long. Many legends will give you a decade, or an era. The story of the Foo Fighters, mysterious lights in the sky, took place during World War II, fueling speculation and conspiracy theories about the secret technology of the Third Reich. There are real government documents that report sightings of Foo Fighters during the late 1930s and early 1940s, but many of the stories that circulate are apocryphal. Generally, the reports talk about seeing strange glimmers in the distance, whereas the stories you might hear on the internet talk about seeing faces emerging from lights, clouds parting, the weather suddenly changing, and pilots engaging in dogfights with ghostly adversaries.</p>
@@ -149,4 +132,3 @@ date: 2020-06-09T00:56:04-05:00
 </ol>
 </section>
 </body>
-</html>
