@@ -1,7 +1,7 @@
 ---
 title: "Accelerated Gammatones"
 author: Coen D. Needell
-date: 2020-05-12T14:37:01-05:00
+date: 2020-06-11T14:37:01-05:00
 draft: false
 math: true
 ---
