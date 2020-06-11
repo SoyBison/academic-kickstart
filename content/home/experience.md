@@ -19,13 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Research Assistant"
+  company = "University of Chicago, Biological Sciences Division, Department of Medicine"
+  location = "Chicago, IL"
+  date_start = "2020-06-15"
+  date_end = ""
+  description = """
+  Develops an on-line system for evaluating cognitive function.
+  """
+[[experience]]
+  title = "Research Assistant"
   company = "University of Chicago, Brain Bridge Lab"
   company_url = "https://brainbridgelab.uchicago.edu/"
   location = "Chicago, IL"
   date_start = "2020-03-01"
   date_end = ""
   description = """
-  Developed Computer Vision models for understanding memory and memorability.
+  Develops Computer Vision models for understanding memory and memorability. Currently focused on adapting MemNet for use in more contexts.
   """
 [[experience]]
   title = "Freelance Data Scientist"
@@ -33,7 +42,7 @@ date_format = "Jan 2006"
   company_url = "https://www.upwork.com/freelancers/~01922a02cfcd8fdc8b"
   location = "St. Louis, MO / Chicago, IL"
   date_start = "2019-05-01"
-  date_end = ""
+  date_end = "2020-05-01"
   description = """ Provided Data Science Services to Various Clients.
   Responsibilities include:
 

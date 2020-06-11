@@ -41,4 +41,4 @@ In `Prelims.ipynb`, more complicated statistical techniques are used, especially
 
 ## Additional Information
 
-This project is currently ongoing, if you have any questions feel free to contact me through github or my website [email form](https://www.coeneedell.com/#contact). This project uses python, with a standard array of data science packages, plus the very excellent colorgram generating package [`colorgram.py`](https://pypi.org/project/colorgram.py/).
+If you have any questions feel free to contact me through github or my website [email form](https://www.coeneedell.com/#contact). This project uses python, with a standard array of data science packages, plus the very excellent colorgram generating package [`colorgram.py`](https://pypi.org/project/colorgram.py/).
