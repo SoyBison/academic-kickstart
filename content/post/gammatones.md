@@ -4,6 +4,7 @@ author: Coen D. Needell
 date: 2020-06-11T14:37:01-05:00
 draft: false
 math: true
+tags: ['GPU Computing', 'Music', 'Scientific Tools', 'Machine Learning']
 ---
 <h1 id="introduction">Introduction</h1>
 <p>Last winter, I worked on a personal project I call <a href="https://www.coeneedell.com/projects/ongaku/"><em>ongaku</em></a> (from the Japanese for ‘music’). This was an attempt to use manifold learning to create a metric space for music. The preprocessing relied heavily on a method called <span class="citation" data-cites="valeroGammatone2012">(Valero and Alias 2012)</span>. This method was intended to replace Mel Frequency Cepstral Coefficients. Where Mel Frequency is a logarithmic transformation of sound frequency, in an attempt to simulate human perception of sound. The most common transformation for Mels is:</p>
