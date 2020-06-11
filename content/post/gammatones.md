@@ -82,23 +82,6 @@ a \oplus b = \alpha \delta a + b
 <div id="ref-wayneTraffic2007">
 <p>Wayne, Fountains of. 2007. “Traffic and Weather.” Virgin.</p>
 </div>
-</div>
-the scientific computing community at large. As such, this project will be released on pypi as <code>gammatone</code>. There does exist a github project called <code>gammatone</code> which is the implementation that ongaku currently uses, but it is not avaliable on pypi at the time of writing, so there will be no conflicts in the long run.</p>
-<p>The available implementations of gammatone filters are serial. However, there have been a number of attempts to parallelize IIR (Infinite Impulse Response) filters in the past<span class="citation" data-cites="anwarDigital">(Anwar and Sung, n.d.)</span> <span class="citation" data-cites="bellochMultichannel2014">(Belloch et al. 2014)</span>. The general consensus is that this is rarely better than a serial implementation, and the implementation of a new filter needs to be made bespoke for that filter. After analyzing the implementation methods, I decided that (for now,) this is beyond the scope of this project. The fourth order gammatone filter is implemented like:</p>
-<p><span class="math display">\[
-erb(x) = 24.7 * (4.37 \times 10^{-3} + 1) \\
-\delta = e^{\frac{2 \pi}{f} erb(f_c) \times 1.019} \\
-q_t = \cos{\frac{2 \pi}{f} f_c} + i\sin{\frac{2 \pi}{f} f_c} \\
-g = \frac{\left(\frac{2 \pi}{cf} erb(f_c) \times 1.019\right)^4}{3} \\
-y_{t} =  q_t x_t + 4 \delta y_{t-1} - 6 \delta^2 y_{t-2} + 4 \delta^3 y_{t-3} - \delta^4 y_{t-4}\\
-\]</span></p>
-<p>Where <span class="math inline">\(f\)</span> is the sampling frequency of the signal, and <span class="math inline">\(f_c\)</span> is the target frequency to test membrane resonance against. The basilar membrane displacement (<span class="math inline">\(B_t\)</span>) and Hilbert envelope (<span class="math inline">\(H_i\)</span>) are defined with simple transformations. The cochleagram uses the Hilbert envelope to construct an image.</p>
-<p><span class="math display">\[
-B_t = g y_t q_t \\
-H_t = g \sqrt{y_t^2}
-\]</span></p>
-<p>Another option is to use a prefix sum <span class="citation" data-cites="blellochPrefix">(Blelloch, n.d.)</span>. The problem with this is that while a single prefix sum can be exact to the first order of a filter, most implementations of gammatone cochleagrams use a fourth order filter. However, most implementations are made for medical applications, and I am a social scientist. Implementing a first order gammatone filter can, unlike higher order filters, can be reduced to a one-dimensional prefix sum operation <span class="citation" data-cites="blellochPrefix">(Blelloch, n.d.)</span>.</p>
-<h1 id="references" class="unnumbered">References</h1>
 <div id="refs" class="references">
 <div id="ref-anwarDigital">
 <p>Anwar, Sajid, and Wonyong Sung. n.d. “Digital Signal Processing Filtering with GPU,” 2.</p>
