@@ -49,7 +49,7 @@ One of the first things that was discovered was the table of player statistics. 
 
 </center>
 
-A large number of these hidden statistics do not show up in the star rating. Clearly there's more going on behind the scenes. In a way this makes sense, the star rating has no bearing on simulation, it's just there to give users an idea of who is good, and who is not. A full description of how the star ratings can be found [here](files/blaseblaseball.pdf), courtesy of @baronbliss. 
+A large number of these hidden statistics do not show up in the star rating. Clearly there's more going on behind the scenes. In a way this makes sense, the star rating has no bearing on simulation, it's just there to give users an idea of who is good, and who is not. A full description of how the star ratings can be found [here](../../files/blaseblaseball.pdf), courtesy of @baronbliss. 
 
 This is incredibly useful in our uncovering of blaseball's core simulation. It gives us an idea of which stats most visibly effect a batter or pitcher's ability as advertized. The problem is, baseball ability in general is split up into a number of areas. Some pitchers are known for killer fastballs, some for tricky curves, some for faking out batters with balls. Some batters are known for running fast, and others are sluggers. Furthermore, this tells us very little about the player's fielding ability, and that's almost half of the game!
 
