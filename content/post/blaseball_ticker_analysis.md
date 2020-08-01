@@ -19,33 +19,33 @@ One of the first things that was discovered was the table of player statistics. 
 
 |Statistic|Contributes to Pitcher Stars|Contributes to Batter Stars|
 |---------|----------------------------|---------------------------|
-|`anticaptitalism`|X|X|
-|`baseThirst`|X|X|
-|`buoyancy`|X|X|
-|`chasiness`|X|X|
-|`coldness`|+|X|
-|`continuation`|X|X|
-|`divinity`|X|+|
-|`groundFriction`|X|X|
-|`indulgence`|X|X|
-|`laserlikeness`|X|X|
-|`martyrdom`|X|+|
-|`moxie`|X|+|
-|`musclitude`|X|+|
-|`omniscience`|X|X|
-|`overpowerment`|+|X|
-|`patheticism`|X|-|
-|`ruthlessness`|+|X|
-|`shakespearianism`|+|X|
-|`suppression`|X|X|
-|`tenaciousness`|X|X|
-|`thwackability`|X|+|
-|`tragicness`|X|-|
-|`unthwackability`|+|X|
-|`watchfulness`|X|X|
-|`pressurization`|X|X|
-|`totalFingers`|X|X|
-|`soul`|X|X|
+|`anticaptitalism` |X|X|
+|`baseThirst` |X|X|
+|`buoyancy` |X|X|
+|`chasiness` |X|X|
+|`coldness` |+|X|
+|`continuation` |X|X|
+|`divinity` |X|+|
+|`groundFriction` |X|X|
+|`indulgence` |X|X|
+|`laserlikeness` |X|X|
+|`martyrdom` |X|+|
+|`moxie` |X|+|
+|`musclitude` |X|+|
+|`omniscience` |X|X|
+|`overpowerment` |+|X|
+|`patheticism` |X|-|
+|`ruthlessness` |+|X|
+|`shakespearianism` |+|X|
+|`suppression` |X|X|
+|`tenaciousness` |X|X|
+|`thwackability` |X|+|
+|`tragicness` |X|-|
+|`unthwackability` |+|X|
+|`watchfulness` |X|X|
+|`pressurization` |X|X|
+|`totalFingers` |X|X|
+|`soul` |X|X|
 
 </center>
 
