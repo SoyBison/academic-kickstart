@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   date_start = "2020-03-01"
   date_end = ""
   description = """
-  Develops Computer Vision models for understanding memory and memorability. Currently focused on adapting MemNet for use in more contexts.
+  Develops Computer Vision models for understanding memory and memorability. Currently focused on developing novel techniques for predicting the memorability of an image.
   """
 [[experience]]
   title = "Freelance Data Scientist"
