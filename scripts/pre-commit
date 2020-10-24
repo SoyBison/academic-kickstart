@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp -r img/ static
+git add static
+git add img

@@ -18,7 +18,11 @@ Testing the version of MemNet available on Khosla's website yields a Spearman ra
 
 Let's take a swing at modernizing MemNet. Running a Caffe Model downloaded from the Internet is largely plug-and-play. We don't need any knowledge of the model's architecture or anything to get it to work, it's just a function that takes in a photo and outputs a number. To rebuild the thing in PyTorch, however, we may need to put some thought in.
 
-![Memnet Architecture](img/memnet/memnet_diagram.png)
+![Memnet Architecture](../../img/memnet/MemNet.png)
+
+<center><em>Figure 1:</em> A skeleton diagram of the layer-structure of MemNet. It's designed to mimic the hugely successful image classifier AlexNet, which consisted of a few convolutional layers followed by 3 fully connected layers. In reality, the convolutional features of MemNet differ slightly from that of AlexNet. </center>
+
+We need to reconstruct this from what can be gleaned from the `.caffemodel` that is provided on Khosla's website. For brevity, I won't write up the code here, but I will post it in an [appendix](https://www.coeneedell.com/appendix/memnet_extras/).
 
 ## Bibliography
 
