@@ -41,7 +41,7 @@ A skeleton diagram of the layer-structure of MemNet. It's designed to mimic the 
 
 <br>
 
-We need to reconstruct this from what can be gleaned from the `.caffemodel` that is provided on Khosla's website. For brevity, I won't write up the code here, but I will post it in an [appendix](https://www.coeneedell.com/appendix/memnet_extras/). We will also need to conduct our own hyperparameter tuning. Using Weights and Biases, we get results like this:
+We need to reconstruct this from what can be gleaned from the `.caffemodel` that is provided on Khosla's website. For brevity, I won't write up the code here, but I will post it in an [appendix](https://www.coeneedell.com/appendix/memnet_extras/#memnet). We will also need to conduct our own hyperparameter tuning. Using Weights and Biases, we get results like this:
 
 <center>
 
@@ -59,7 +59,7 @@ Historically, the next big advancement in using neural networks for computer vis
 
 ![ResMem Diagram](../../img/memnet/ResMem.png)
 
-For the following discussion, while ResMem is initialized to a pre-trained optimum, I have allowed it to retrain for our problem. The thought is that given a larger set of parameters the final model *should* be more generalizable. Using weights and biases, we can run a hyperparameter sweep.
+For the following discussion, while ResMem is initialized to a pre-trained optimum, I have allowed it to retrain for our problem. The thought is that given a larger set of parameters the final model *should* be more generalizable. Using weights and biases, we can run a hyperparameter sweep. The code for this is [here](https://www.coeneedell.com/appendix/memnet_extras/#resmem)
 
 <center>
 
