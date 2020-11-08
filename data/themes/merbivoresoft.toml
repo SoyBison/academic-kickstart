@@ -1,0 +1,22 @@
+# Theme metadata
+name = "merbivoresoft"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+primary = "#678CB1"
+primary_light = "#678CB1"
+primary_dark = "#678CB1"
+
+# Menu
+menu_primary = "#93C763"
+menu_text = "#FFCD22"
+menu_text_active = "#00828B"
+menu_title = "#FFCD22"
+
+# Backgrounds
+background = "#E6E1DC"
+background_dark = "#1C1C1C"
+home_section_odd = "#678CB1"
+home_section_even = "#1C1C1C"
