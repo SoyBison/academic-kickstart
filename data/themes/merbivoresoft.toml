@@ -5,7 +5,7 @@ name = "merbivoresoft"
 light = false
 
 # Primary
-primary = "#678CB1"
+primary = "#48627b"
 primary_light = "#678CB1"
 primary_dark = "#334658"
 
