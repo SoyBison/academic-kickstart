@@ -11,7 +11,7 @@ primary_dark = "#1C1C1C"
 
 # Menu
 menu_primary = "#EC7600"
-menu_text = "#616161"
+menu_text = "#333435"
 menu_text_active = "#333435"
 menu_title = "#333435"
 
