@@ -17,7 +17,7 @@ You may notice looking through git logs that this project used to be called "pat
 
 ## The Map:
 
-The map will be a hexagonal grid, defined in cubic coordinates. That being said, it has been implemented using a python dictionary where the key is a tuple of the coordinates, and the value is the tile with all the information needed about it.
+The map is a hexagonal grid, defined in cubic coordinates. That being said, it has been implemented using a python dictionary where the key is a tuple of the coordinates, and the value is the tile with all the information needed about it.
 
 ## The Output:
 
