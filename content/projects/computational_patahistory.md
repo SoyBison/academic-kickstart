@@ -2,7 +2,7 @@
 title: "Computational Rupahistory"
 date: 2020-05-12T14:36:28-05:00
 draft: false
-version: 0.0.0
+version: 0.0.1
 ---
 
 This is an ongoing project to create 4X-style simulations of civilizations in a simulated world. This is intended to be a long-term project, that I will add to over the course of a long period, when I have some free time.

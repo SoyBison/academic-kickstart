@@ -4,17 +4,17 @@ date: 2020-10-24T16:43:39-05:00
 draft: false
 ---
  
-Memnet[^1] was an attempt to build a neural network based model to predict the memorability of an image. This attempt was carried out by Aditya Khosla at the Computer Science and Artificial Intelligence Labs at MIT, to moderate success. It is the most commonly used neural network regression for this purpose, and has been used and cited in a number of research papers since publication. There are some problems however. Memnet was built in Caffe, a deep learning framework which has been defunct since shortly after Memnet's publication. Memnet was trained on LaMem, a dataset to which public access has been restricted, and the original author, Aditya Khosla, is difficult to get a hold of. For the past couple of months I, under the auspices of the Brain Bridge Lab at the University of Chicago, have been investigating the model itself, as well as making some tweaks to utilize newer techniques and hardware access to solve the same problem.
+Memnet[^1] was an attempt to build a neural network-based model to predict the memorability of an image. This attempt was carried out by Aditya Khosla at the Computer Science and Artificial Intelligence Labs at MIT to moderate success. It is the most commonly used neural network regression for this purpose, and has been used and cited in many research papers since publication. There are some problems, however. Memnet was built in Caffe, a deep learning framework which has been defunct since shortly after Memnet's publication. Memnet was trained on LaMem, a dataset to which public access has been restricted, and the original author, Aditya Khosla, is difficult to get a hold of. For the past couple of months I, under the auspices of the Brain Bridge Lab at the University of Chicago, have been investigating the model itself, as well as making some tweaks to utilize newer techniques and hardware access to solve the same problem.
 
 ## The Old Model
 
-First things first, load up the Caffe model. This is easier said than done. For one, Caffe was designed fo 32 bit systems, and the rest of the computing community has looking forward, dropping 32 bit support. I don't need to get into exactly what was necessary to get caffe to run on a modern system here, but in short, be prepared to cut features out in the makefile. 
+First things first, load up the Caffe model. This is easier said than done. For one, Caffe was designed for 32 bit systems, and the rest of the computing community has pushed forward, dropping 32-bit support. I don't need to get into exactly what was necessary to get caffe to run on a modern system here, but in short, be prepared to cut features out in the makefile.
 
-For the reader who is more familiar with machine learning than psychology, the numbers reported in this discussion might seem strange. Although Memorability *is* a number between 0 and 1, it is still ultimately a relative value. Because of this, most papers about predicting memorability scores do not report Euclidean loss, but instead report Spearman Rank Correlation. This is done by ranking each value in two lists, and then measuring the Pearson or Standard Correlation between the ranks.
+For the reader who is more familiar with machine learning than psychology, the numbers reported in this discussion might seem strange. Although Memorability *is* a number between 0 and 1, it is still ultimately a relative value. Because of this, most papers about predicting memorability scores do not report Euclidean loss, but instead, report Spearman Rank Correlation. This is done by ranking each value in two lists, and then measuring the Pearson or Standard Correlation between the ranks.
 
 Testing the version of MemNet available on Khosla's website yields a Spearman rank correlation of about 0.565, which is within expected limits of the 0.57 reported in the paper. There is, however, some weirdness with these outputs.
 
-When you plot the whole distribution of memorability scores for each image in LaMem, you get a certain distribution curve. Now, if you plot the distribution of scores predicted by a model, you *should* get a similar curve. An optimal model, which gets every score correct within some margin, should have almost exactly the same curve. Now, passing this simple sanity check isn't proof that your model is correct, as you could concievably have the same distribution, but have all the scores be mismatched, failing the test *is* sufficient to say that the model needs work. One interesting thing, which is rather related to the earlier discussion of Spearman Rank Correlation is that if the model is regressing toward the mean, that is, it's achieving the best loss by just predicting the mean every time but with some small variation, if that variation is correlated with the ground truth, you can have a very good rank correlation, but a rather lousy loss. Running this analysis on Khosla's MemNet implementation which is available on the website, yields results like this.
+When you plot the whole distribution of memorability scores for each image in LaMem, you get a certain distribution curve. Now, if you plot the distribution of scores predicted by a model, you *should* get a similar curve. An optimal model, which gets every score correct within some margin, should have almost the same curve. Now, passing this simple sanity check isn't proof that your model is correct, as you could conceivably have the same distribution, but have all the scores be mismatched, failing the test *is* sufficient to say that the model needs work. One interesting thing, which is rather related to the earlier discussion of Spearman Rank Correlation is that if the model is regressing toward the mean, that is, it's achieving the best loss by just predicting the mean every time but with some small variation, if that variation is correlated with the ground truth, you can have a very good rank correlation, but a rather lousy loss. Running this analysis on Khosla's MemNet implementation which is available on the website, yields results like this.
 <center>
 
 ![MemNet Distribution](../../img/memnet/memnetdist.png)
@@ -41,7 +41,7 @@ A skeleton diagram of the layer-structure of MemNet. It's designed to mimic the 
 
 <br>
 
-We need to reconstruct this from what can be gleaned from the `.caffemodel` that is provided on Khosla's website. For brevity, I won't write up the code here, but I will post it in an [appendix](https://www.coeneedell.com/appendix/memnet_extras/#memnet). We will also need to conduct our own hyperparameter tuning. Using Weights and Biases, we get results like this:
+We need to reconstruct this from what can be gleaned from the `.caffemodel` that is provided on Khosla's website. For brevity, I won't write up the code here, but I will post it in an [appendix](https://www.coeneedell.com/appendix/memnet_extras/#memnet). We will also need to conduct our hyperparameter tuning. Using Weights and Biases, we get results like this:
 
 <center>
 
@@ -49,7 +49,7 @@ We need to reconstruct this from what can be gleaned from the `.caffemodel` that
 
 </center>
 
-For most of these runs, we have created a random split on LaMem, and tested our new MemNet implementation using both a train set and validation set drawn from LaMem. The cyan line, labeled `trainOnLaMem-valOnMemCat` is the result of training the model on LaMem, and then testing it on a different dataset called MemCat[^3]. This is very low compared to the within-LaMem results. The salmon line is the opposite, a model which was trained on MemCat and tested on LaMem. This is astounding because not only does LaMem purport to be a generalizable dataset, it is also around 55-thousand images whereas MemCat is made up of only ten-thousand. This implies that LaMem alone may not be as general as once thought. There are probably some features that are very common among LaMem data which are not apparent in MemCat. This is something to keep in mind going forward. Another thing to note is that the best performing model on LaMem alone peaks at around 0.56 rank correlate with the data. This is within expected limits of Khosla's reported 0.57.
+For most of these runs, we have created a random split on LaMem, and tested our new MemNet implementation using both a train set and validation set drawn from LaMem. The cyan line, labeled `trainOnLaMem-valOnMemCat` is the result of training the model on LaMem, and then testing it on a different dataset called MemCat[^3]. This is very low compared to the within-LaMem results. The salmon line is the opposite, a model that was trained on MemCat and tested on LaMem. This is astounding because not only does LaMem purport to be a generalizable dataset, it is also around 55-thousand images whereas MemCat is made up of only ten-thousand. This implies that LaMem alone may not be as general as once thought. There are probably some features that are very common among LaMem data which are not apparent in MemCat. This is something to keep in mind going forward. Another thing to note is that the best performing model on LaMem alone peaks at around 0.56 rank correlate with the data. This is within the expected limits of Khosla's reported 0.57.
 
 Now let's do some tweaking.
 
@@ -59,7 +59,7 @@ Historically, the next big advancement in using neural networks for computer vis
 
 ![ResMem Diagram](../../img/memnet/ResMem.png)
 
-For the following discussion, while ResMem is initialized to a pre-trained optimum, I have allowed it to retrain for our problem. The thought is that given a larger set of parameters the final model *should* be more generalizable. Using weights and biases, we can run a hyperparameter sweep. 
+For the following discussion, while ResMem is initialized to a pre-trained optimum, I have allowed it to retrain for our problem. The thought is that given a larger set of parameters the final model *should* be more generalizable. Using weights and biases, we can run a hyperparameter sweep.
 
 <center>
 
@@ -67,11 +67,11 @@ For the following discussion, while ResMem is initialized to a pre-trained optim
 
 </center>
 
-Here we can see much much higher peaks, reaching into the range of 0.66-0.67! All of these runs were both trained and validated on a dataset which was constructed from both MemCat and LaMem databases.
+Here we can see much much higher peaks, reaching into the range of 0.66-0.67! All of these runs were both trained and validated on a dataset that was constructed from both MemCat and LaMem databases.
 
 ## TripleMem
 
-Going forward, I'm going to try to add a third feature to our model. This one is based off of Semantic Segmentation. There is, however, a problem. Semantic Segmentation outputs a data array which is much more high dimensional than an image, so it cannot be squished directly into standard linear layer. The way this will be implemented is as a pre-trained segmentation model, which will not be retrained during the process, and a small convolutional neural network to process the segmentation into more simple convolutional features.
+Going forward, I'm going to try to add a third feature to our model. This one is based on Semantic Segmentation. There is, however, a problem. Semantic Segmentation outputs a data array that is much more high-dimensional than an image, so it cannot be squished directly into a standard linear layer. The way this will be implemented is as a pre-trained segmentation model, which will not be retrained during the process, and a small convolutional neural network to process the segmentation into more simple convolutional features.
 
 ![TripleMem Diagram](../../img/memnet/TripleMem.png)
 
