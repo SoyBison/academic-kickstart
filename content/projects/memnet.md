@@ -4,8 +4,6 @@ date: 2020-10-24T17:04:31-05:00
 draft: false
 ---
 
-# BrainBridge-MemNet
-
 ## Info
 
 Reimplemementing and testing Aditya Khosla's MemNet[[1]](#1), and beyond.
