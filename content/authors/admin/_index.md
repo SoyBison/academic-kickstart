@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Coën D. Needell
+name: Coen D. Needell
 
 # Username (this should match the folder name)
 authors:
