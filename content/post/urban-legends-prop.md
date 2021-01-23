@@ -1,7 +1,7 @@
 ---
 author: Coen D. Needell
 title: Research Proposal on Urban Legends and the Internet
-tags: ["Digital Archeology", "Cultural Patterns", 'Urban Legends']
+tags: ["Digital Archaeology", "Cultural Patterns", 'Urban Legends']
 draft: false
 date: 2020-04-09T00:56:04-05:00
 ---
