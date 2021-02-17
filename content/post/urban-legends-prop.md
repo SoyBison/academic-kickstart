@@ -20,7 +20,7 @@ Despite their ubiquity, there is a relatively small amount of academic research 
 
 This might be difficult. A lot of the internet early on was on Usenet, which is fairly well preserved by Google at this point, but this excludes the millions of private email chains that gave us hoaxes like the Neiman Marcus Cookie Recipe[^1], as well as a lot of the more conspiracy-theory leaning urban legends.
 
-Another option is to utilize some of the wonderful digital archeology resources out there, like the internet archive as well as smaller servers that have been built to store troves of old forum posts and discussions. 
+Another option is to utilize some of the wonderful digital archeology resources out there, like the internet archive as well as smaller servers that have been built to store troves of old forum posts and discussions.
 
 ### Data Analysis
 
