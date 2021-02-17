@@ -16,15 +16,17 @@ ResMem is a deep learning model built in PyTorch for estimating the memorability
 
 ![ResMem Architecture](../../img/memnet/ResMem.jpg)
 
-If you're only using `resmem` to estimate image memorability, you can expect that most of your predictions will be more accurate than the figures mentioned earlier. However, it may be useful to know how the model behaves more broadly. This section is intended to elucidate this.ResMemRetrain, as tested on a selection of images from LaMem[^1] and MemCat[^2], does have an average "inaccuracy" of about ten percent, as discussed earlier but there are some mitigating factors.
+If you're only using `resmem` to estimate image memorability, you can expect that most of your predictions will be more accurate than the figures mentioned earlier. However, it may be useful to know how the model behaves more broadly. This section is intended to elucidate this. ResMemRetrain, as tested on a random selection of images from LaMem[^1] and MemCat[^2], has an average "inaccuracy" of about ten percent as discussed earlier, but there are some mitigating factors.
 
-The figure below shows two distributions of memorability scores. You will notice that ResMemRetrain's predictions "clip" below 0.411. In other words, for the bottom ~0.5% of images, the model predicts their memorability as 0.411. This phenomenon comes from limited data in the low-memorability region and the mathematical nature of the memorability score. Even when considering so-called "low memorability" images, people have fairly good memories. The lowest memorability in the training set is not 0; it's 0.2.
+The figure below shows two distributions of memorability scores. You will notice that ResMemRetrain's predictions "clip" below 0.411. In other words, for the bottom ~0.5% of images, the model predicts their memorability as 0.411. This phenomenon comes from limited data in the low-memorability region and the mathematical nature of the memorability score. Even expanding the low memorability region to below 0.5, it still only contains 3% of our images.
 
 ![ResMemRetrain Distributions](../../img/memnet/restest.png)
 
-Because these ultra-low memorability images are rare, and we have such little data on them, even a powerful deep learning model like ResMemRetrain struggles to predict their memorability accurately. Considering only images with measured memorability above 0.5, which is roughly 97% of images across LaMem and MemCat, the average inaccuracy falls to 0.05.
+Because these ultra-low memorability images are rare, and we have such little data on them, even a deep learning model like ResMemRetrain struggles to predict their memorability accurately. Considering only images with measured memorability above 0.5, which is roughly 97% of images across LaMem and MemCat, the average inaccuracy falls to 0.05.
 
 In addition, I would caution against using this model as pretrained on images of faces. It's believed that face-memorability is a different problem than scene and object memorability. Using this architecture, and Wilma Bainbridge's FACES database[^3], I've been able to make a model with rank correlations on the order of 0.2. In other words, it beats previous models, but not by a lot.
+
+For more information on this project at-large, see the project page [here.](https://coen.needell.co/projects/memnet/)
 
 ---
 [^1]: Khosla, Aditya, Akhil S. Raju, Antonio Torralba, and Aude Oliva.  2015. "Understanding and Predicting Image Memorability at a Large Scale." In2015 Ieee International Conference on Computer Vision (Iccv), 2390–8. IEEE.https://doi.org/10.1109/ICCV.2015.275.1
