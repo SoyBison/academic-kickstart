@@ -15,8 +15,8 @@ Memnet has been difficult to access since Dr. Khosla's departure from the academ
 A decent amount of progress has been made on this project so far. The progress will be chronicled in a number of blog posts.
 
 1. [MemNet and Similar Models](https://www.coeneedell.com/post/memnetch1/)
-2. [ResMem Release](https://www.coeneedell.com/post/resmemrelease.md)
-3. [ResMem and M3M](https://www.coeneedell.com/post/memnetch2.md)
+2. [ResMem Release](https://www.coeneedell.com/post/resmemrelease/)
+3. [ResMem and M3M](https://www.coeneedell.com/post/memnetch2/)
 
 A release version of ResMem, the best performing model I've made so far (at least that isn't too large to run on personal computers) is publicly available! The source code can be found at [github.](https://github.com/Brain-Bridge-Lab/resmem) But there's an easy-to-install version on PyPI, with a web interface coming soon. Just type into your console:
 
