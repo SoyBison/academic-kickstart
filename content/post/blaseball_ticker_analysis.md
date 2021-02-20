@@ -73,7 +73,7 @@ Here is the result for the batting average:
 
 NOTE: This chart is labeled poorly, and I noticed it after the statistics became broken, so it can't be easily fixed. The classes appear to be backwards. The branches labeled "Not batting leader" are the success branches. This chart shows how the classification is RULED OUT.
 
-![Batting Average Decision Tree](../../img/blaseball/battingtree.png)
+![Batting Average Decision Tree](../../media/blaseball/battingtree.png)
 
 This chart can be a little arcane, so I'll give an explanation of how to read it. At the top of each branch, there's a conditional statement. If a player satisfies that condition, they go left, if not, they go right. At the `martyrdom` stage, this tells us that only one player has a `martyrdom` score higher than 1.203. At the `baseThirst` stage, it tells us that of the players remaining, 4 of them have a `baseThirst` above 0.989. Of which, one is classified as a batting average leader.
 
@@ -83,7 +83,7 @@ Starting from the top, we see `martyrdom`, then `baseThirst`, then `divinity`. K
 
 Here is the result for On Base Percentage, this chart is labeled more sensibly.
 
-![On Base Percentage Tree](../../img/blaseball/onbase.png)
+![On Base Percentage Tree](../../media/blaseball/onbase.png)
 
 This one is a bit more complicated. This is because the accuracy of this model dropped quickly when the pruning operation was allowed a higher criteria. Again, the player with very high `martyrdom` drops out immediately. I believe this is likely a coincidence. `watchfulness` shows up next, filtering out 7 players. This is useful information, and likely means that `watchfulness` is a secondary batting characteristic. Then we see `thwackability`. `thwackability` filters out two players, at a very high gini impurity node. This seems to back up the star ratings' assertion that `thwackability` is a high batter statistic. Then we see `unthwackability`. It filters out a lot of players, so it's hard to ignore. `unthwackability`, according to this analysis, is important to on base percentage, perhaps it is relevant to whether or not a player gets tagged out? `ruthlessness` is up next, and filters out one player inversely. We can probably write this off, but maybe not. Something to look into in the future.
 
@@ -91,7 +91,7 @@ This one is a bit more complicated. This is because the accuracy of this model d
 
 Here is the result for stolen bases, again using the counterintuitive labeling.
 
-![Stolen Bases tree](../../img/blaseball/stealtree.png)
+![Stolen Bases tree](../../media/blaseball/stealtree.png)
 
 Again, we see `baseThirst`, but with a __low__ `baseThirst` correlating with base stealing leads. This is extremely counter-intuitive. One player with very high `laserlikeness` is filtered out quickly, perhaps `laserlikeness` has the tendency to overpower other statistics? `overpowerment` is next. This is a real meat-and-potatoes branch. With a high gini impurity going in, and filtering out a good amount of players, we see that having a low `overpowerment` makes you much less likely to lead the league in bases stolen. Finally, `continuation`. 
 
@@ -102,7 +102,7 @@ Incineration is a metagame mechanic, where a rogue umpire decides that a player 
 
 Here's the chart, this has intuitive labels.
 
-![Incineration Tree](../../img/blaseball/incineratedtree.png)
+![Incineration Tree](../../media/blaseball/incineratedtree.png)
 
 Yikes that's complicated. Right away though we can ignore the `suppression` branches, those two only filter out one person together, and don't contribute very highly to the gini impurity. Above that though `divinity`, `coldness`, and `watchfulness` catch the eye. Two players fail the `watchfulness` test, and one of them is incinerated, so that might not be super useful information for now. Then see `coldness`, of the players incinerated, two have low `coldness`. Altogether though, this entire tree is filled with very rare conditions and lower splits that don't tell us much. It seems that for now, incineration is still a mystery. Just to be safe though, I'm going to continue praying to the blaseball gods. What little evidence we have seems to suggest that having a high divinity may increase your chance of incineration.
 

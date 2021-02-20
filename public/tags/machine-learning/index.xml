@@ -6,19 +6,56 @@
     <description>Recent content in Machine Learning on Coen D. Needell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy {2019}</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 17:09:00 -0700</lastBuildDate>
+    <copyright>&amp;copy {2020}</copyright>
+    <lastBuildDate>Sat, 01 Aug 2020 13:04:23 -0500</lastBuildDate>
     
 	<atom:link href="https://www.coeneedell.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fluxx for Robots</title>
-      <link>https://www.coeneedell.com/project/fluxx-for-robots/</link>
-      <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
+      <title>Blaseball Ticker Analysis</title>
+      <link>https://www.coeneedell.com/post/blaseball_ticker_analysis/</link>
+      <pubDate>Sat, 01 Aug 2020 13:04:23 -0500</pubDate>
       
-      <guid>https://www.coeneedell.com/project/fluxx-for-robots/</guid>
-      <description>Fluxx Introduction: Fluxx is a mildly popular card game. All things considered, it&#39;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
+      <guid>https://www.coeneedell.com/post/blaseball_ticker_analysis/</guid>
+      <description>Introduction In the last week, large swathes of the Internet have been enamored with the simulated sport of blaseball. Blaseball describes itself as &amp;ldquo;baseball at your mercy, baseball perfected&amp;rdquo;. I&amp;rsquo;ve been describing it as &amp;ldquo;Nightvale-esque simulated baseball with rules decided by a voting system&amp;rdquo;. It&amp;rsquo;s fun, that&amp;rsquo;s for sure. Blaseball saw a boom after being picked up by a number of news outlets, and a number of blaseball users thought &amp;ldquo;now, this is fun, but I want to know it like I know myself&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Accelerated Gammatones</title>
+      <link>https://www.coeneedell.com/post/gammatones/</link>
+      <pubDate>Thu, 11 Jun 2020 14:37:01 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/gammatones/</guid>
+      <description>Introduction Last winter, I worked on a personal project I call ongaku (from the Japanese for ‘music’). This was an attempt to use manifold learning to create a metric space for music. The preprocessing relied heavily on a method called (Valero and Alias 2012). This method was intended to replace Mel Frequency Cepstral Coefficients. Where Mel Frequency is a logarithmic transformation of sound frequency, in an attempt to simulate human perception of sound.</description>
+    </item>
+    
+    <item>
+      <title>Sex, Conspiracy, and Video Games: Urban Legends on the Internet</title>
+      <link>https://www.coeneedell.com/post/urban_legends/</link>
+      <pubDate>Tue, 09 Jun 2020 00:56:04 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/urban_legends/</guid>
+      <description>Introduction Urban Legends, or Contemporary Legends, are a type of folklore popularized by Jan Harold Brunvand in his book: The Vanishing Hitchhiker: American Urban Legends &amp;amp; Their Meanings. Urban Legends are considered to be the modern continuation of the human tradition of folklore and legends. Folklore does not occur exclusively in so-called primitive or traditional societies, and by studying modern folklore in the same way that we study the folklore</description>
+    </item>
+    
+    <item>
+      <title>Plurals and ML</title>
+      <link>https://www.coeneedell.com/post/plurals-and-ml/</link>
+      <pubDate>Fri, 24 Jan 2020 16:39:07 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/plurals-and-ml/</guid>
+      <description>Plurals and Machine Learning Using older machine learning models to conjugate English verbs produced rather silly results. These models performed at an acceptable level for many words, but when given nonsense words as an input these models would produce humorous conjugations. For example, we have:
+    Verb Human Generated Past-Tense Machine Generated Past-Tense     mail mailed membled   conflict conflicted conflafted   wink winked wok   quiver quivered quess   satisfy satisfied sedderded   smairf smairfed sprurice   trilb tribled treelilt   smeej smeejed leefloag   frilg frilged freezled     Naturally, my girlfriend and I found this hilarious.</description>
+    </item>
+    
+    <item>
+      <title>Ongaku</title>
+      <link>https://www.coeneedell.com/projects/ongaku/</link>
+      <pubDate>Thu, 23 Jan 2020 10:41:17 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/ongaku/</guid>
+      <description>Overview Ongaku is a method for creating playlists programmatically, using only the content of the song alone. It uses gammatone cepstral analysis to create unique matrices to represent each song. A gammatone cepstrum is similar to the more common spectra used for audio analysis. Instead of doing a Fourier transform, we do a reverse Fourier transform, and then apply a transformation according to the gammatone function. This function was designed to mimic the signals sent to the brain through the cochlear nerve, the nerve which connects the ear to the brain.</description>
     </item>
     
     <item>
@@ -27,7 +64,7 @@
       <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
       
       <guid>https://www.coeneedell.com/projects/fluxx-for-robots/</guid>
-      <description>Fluxx Introduction: Fluxx is a mildly popular card game. All things considered, it&#39;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
+      <description>Introduction: Fluxx is a mildly popular card game. All things considered, it&amp;rsquo;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
     </item>
     
   </channel>

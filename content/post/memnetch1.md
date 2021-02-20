@@ -17,11 +17,11 @@ Testing the version of MemNet available on Khosla's website yields a Spearman ra
 When you plot the whole distribution of memorability scores for each image in LaMem, you get a certain distribution curve. Now, if you plot the distribution of scores predicted by a model, you *should* get a similar curve. An optimal model, which gets every score correct within some margin, should have almost the same curve. Now, passing this simple sanity check isn't proof that your model is correct, as you could conceivably have the same distribution, but have all the scores be mismatched, failing the test *is* sufficient to say that the model needs work. One interesting thing, which is rather related to the earlier discussion of Spearman Rank Correlation is that if the model is regressing toward the mean, that is, it's achieving the best loss by just predicting the mean every time but with some small variation, if that variation is correlated with the ground truth, you can have a very good rank correlation, but a rather lousy loss. Running this analysis on Khosla's MemNet implementation which is available on the website, yields results like this.
 <center>
 
-![MemNet Distribution](../../img/memnet/memnetdist.png)
+![MemNet Distribution](../../media/memnet/memnetdist.png)
 
 This shows the distribution of the predictions on LaMem, note that the mean is ~ 0.725, and the distribution is very tight. The standard deviation is on the order of 0.0025.
 
-![Ground Truth Distribution](../../img/memnet/gtruthdist.png)
+![Ground Truth Distribution](../../media/memnet/gtruthdist.png)
 
 This shows the distribution of the LaMem ground truths. Again, see that the mean is around 0.725, but the standard deviation is on the order of 0.15.
 
@@ -35,7 +35,7 @@ This further implies that MemNet is probably not as generalizable as previously 
 Let's take a swing at modernizing MemNet. Running a Caffe Model downloaded from the Internet is largely plug-and-play. We don't need any knowledge of the model's architecture or anything to get it to work, it's just a function that takes in a photo and outputs a number. To rebuild the thing in PyTorch, however, we may need to put some thought in.
 <center>
 
-![Memnet Architecture](../../img/memnet/MemNet.jpg)
+![Memnet Architecture](../../media/memnet/MemNet.jpg)
 
 A skeleton diagram of the layer-structure of MemNet. It's designed to mimic the hugely successful image classifier AlexNet, which consisted of a few convolutional layers followed by 3 fully connected layers. In reality, the convolutional features of MemNet differ slightly from that of AlexNet. </center>
 
@@ -45,7 +45,7 @@ We need to reconstruct this from what can be gleaned from the `.caffemodel` that
 
 <center>
 
-![MemNet Tuning](../../img/memnet/memnetsweep.png)
+![MemNet Tuning](../../media/memnet/memnetsweep.png)
 
 </center>
 
@@ -57,13 +57,13 @@ Now let's do some tweaking.
 
 Historically, the next big advancement in using neural networks for computer vision was ResNet. This allowed for convolutional neural networks to be built deeper, with more layers, without the gradient exploding or vanishing. Knowing that, let's try to include this in our model. What we will do is take a pre-trained ResNet, that is the whole thing, not just the convolutional features, and add it as an input feature for our regression step. The code for this is [here.](https://www.coeneedell.com/appendix/memnet_extras/#resmem)
 
-![ResMem Diagram](../../img/memnet/ResMem.jpg)
+![ResMem Diagram](../../media/memnet/ResMem.jpg)
 
 For the following discussion, while ResMem is initialized to a pre-trained optimum, I have allowed it to retrain for our problem. The thought is that given a larger set of parameters the final model *should* be more generalizable. Using weights and biases, we can run a hyperparameter sweep.
 
 <center>
 
-![ResMem Testing](../../img/memnet/resnetsweep.png)
+![ResMem Testing](../../media/memnet/resnetsweep.png)
 
 </center>
 
@@ -73,7 +73,7 @@ Here we can see much much higher peaks, reaching into the range of 0.66-0.67! Al
 
 Going forward, I'm going to try to add a third feature to our model. This one is based on Semantic Segmentation. There is, however, a problem. Semantic Segmentation outputs a data array that is much more high-dimensional than an image, so it cannot be squished directly into a standard linear layer. The way this will be implemented is as a pre-trained segmentation model, which will not be retrained during the process, and a small convolutional neural network to process the segmentation into more simple convolutional features.
 
-![TripleMem Diagram](../../img/memnet/TripleMem.jpg)
+![TripleMem Diagram](../../media/memnet/TripleMem.jpg)
 
 While this model has not undergone full testing yet, the preliminary results are promising. It is, however, much heavier than ResMem, taking almost four times as long to train on my GTX 1080 TI.
 

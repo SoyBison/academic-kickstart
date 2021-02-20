@@ -4,7 +4,177 @@
   
   <url>
     <loc>https://www.coeneedell.com/</loc>
-    <lastmod>2019-12-31T17:09:00-07:00</lastmod>
+    <lastmod>2021-02-16T12:10:12-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/</loc>
+    <lastmod>2021-02-16T12:10:12-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/resmemrelease/</loc>
+    <lastmod>2021-02-16T12:10:12-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/projects/memnet/</loc>
+    <lastmod>2020-10-24T17:04:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/projects/</loc>
+    <lastmod>2020-10-24T17:04:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/memnetch1/</loc>
+    <lastmod>2020-10-24T16:43:39-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/appendix/</loc>
+    <lastmod>2020-10-24T15:36:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/appendix/memnet_extras/</loc>
+    <lastmod>2020-10-24T15:36:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/blaseball_ticker_analysis/</loc>
+    <lastmod>2020-08-01T13:04:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/machine-learning/</loc>
+    <lastmod>2020-08-01T13:04:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/sibr/</loc>
+    <lastmod>2020-08-01T13:04:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/splorts/</loc>
+    <lastmod>2020-08-01T13:04:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/</loc>
+    <lastmod>2020-08-01T13:04:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/gammatones/</loc>
+    <lastmod>2020-06-11T14:37:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/gpu-computing/</loc>
+    <lastmod>2020-06-11T14:37:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/music/</loc>
+    <lastmod>2020-06-11T14:37:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/scientific-tools/</loc>
+    <lastmod>2020-06-11T14:37:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/cultural-patterns/</loc>
+    <lastmod>2020-06-09T00:56:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/digital-archaeology/</loc>
+    <lastmod>2020-06-09T00:56:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/internet-culture/</loc>
+    <lastmod>2020-06-09T00:56:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/urban_legends/</loc>
+    <lastmod>2020-06-09T00:56:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/urban-legends/</loc>
+    <lastmod>2020-06-09T00:56:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/projects/accelerated_gammatones/</loc>
+    <lastmod>2020-05-12T14:37:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/projects/computational_patahistory/</loc>
+    <lastmod>2020-05-12T14:36:28-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/urban-legends-prop/</loc>
+    <lastmod>2020-04-09T00:56:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/color-analysis/</loc>
+    <lastmod>2020-03-30T15:19:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/bandcamp_writeup/</loc>
+    <lastmod>2020-03-30T15:19:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/statistical-learning/</loc>
+    <lastmod>2020-03-30T15:19:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/bandcamp_prelims/</loc>
+    <lastmod>2020-03-07T14:46:56-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/projects/bandcamp_analysis/</loc>
+    <lastmod>2020-03-06T15:12:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/bandcamp_proposal/</loc>
+    <lastmod>2020-03-05T17:45:57-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/deep-learning/</loc>
+    <lastmod>2020-01-24T16:39:07-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/tags/natural-language/</loc>
+    <lastmod>2020-01-24T16:39:07-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/post/plurals-and-ml/</loc>
+    <lastmod>2020-01-24T16:39:07-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.coeneedell.com/projects/ongaku/</loc>
+    <lastmod>2020-01-23T10:41:17-06:00</lastmod>
   </url>
   
   <url>
@@ -13,32 +183,7 @@
   </url>
   
   <url>
-    <loc>https://www.coeneedell.com/project/fluxx-for-robots/</loc>
-    <lastmod>2019-12-31T17:09:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.coeneedell.com/projects/fluxx-for-robots/</loc>
-    <lastmod>2019-12-31T17:09:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.coeneedell.com/tags/machine-learning/</loc>
-    <lastmod>2019-12-31T17:09:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.coeneedell.com/project/</loc>
-    <lastmod>2019-12-31T17:09:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.coeneedell.com/projects/</loc>
-    <lastmod>2019-12-31T17:09:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.coeneedell.com/tags/</loc>
     <lastmod>2019-12-31T17:09:00-07:00</lastmod>
   </url>
   
@@ -52,10 +197,6 @@
   
   <url>
     <loc>https://www.coeneedell.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.coeneedell.com/post/</loc>
   </url>
   
   <url>

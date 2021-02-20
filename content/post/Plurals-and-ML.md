@@ -110,7 +110,7 @@ A letter-by-letter model works with two inputs, the singular word, and the last 
 
 
 <div style='text-align:center'>
-<img src='../../img/leefloag/lbl.png'>
+<img src='../../media/leefloag/lbl.png'>
 </div>
 
 
@@ -245,7 +245,7 @@ In the diagram below, _x_ is the singular version of the word, the _h<sup>i</sup
 
 
 <div style='text-align:center'>
-<img src='../../img/leefloag/aoo.png'>
+<img src='../../media/leefloag/aoo.png'>
 </div>
 
 Here's the code I used:

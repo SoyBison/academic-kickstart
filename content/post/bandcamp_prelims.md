@@ -229,7 +229,7 @@ plt.show()
 ```
 
 
-![svg](../../img/Prelims_files/Prelims_12_0.svg)
+![svg](../../media/Prelims_files/Prelims_12_0.svg)
 
 
 
@@ -279,19 +279,19 @@ plt.show()
 ```
 
 
-![svg](../../img/Prelims_files/Prelims_16_0.svg)
+![svg](../../media/Prelims_files/Prelims_16_0.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_16_1.svg)
+![svg](../../media/Prelims_files/Prelims_16_1.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_16_2.svg)
+![svg](../../media/Prelims_files/Prelims_16_2.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_16_3.svg)
+![svg](../../media/Prelims_files/Prelims_16_3.svg)
 
 
 The colors stay pretty recognizable all the way down to 3-bits per channel. We're mostly losing nuance in the grays and intermediate colors. That being said, we'll still try the LDA analysis with both 5 bit channels and 4 bit channels. In general things get a little more obnoxious, louder, but we shouldn't lose too mucch information.
@@ -403,79 +403,79 @@ for n in range(1, 20):
 ```
 
 
-![svg](../../img/Prelims_files/Prelims_27_0.svg)
+![svg](../../media/Prelims_files/Prelims_27_0.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_1.svg)
+![svg](../../media/Prelims_files/Prelims_27_1.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_2.svg)
+![svg](../../media/Prelims_files/Prelims_27_2.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_3.svg)
+![svg](../../media/Prelims_files/Prelims_27_3.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_4.svg)
+![svg](../../media/Prelims_files/Prelims_27_4.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_5.svg)
+![svg](../../media/Prelims_files/Prelims_27_5.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_6.svg)
+![svg](../../media/Prelims_files/Prelims_27_6.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_7.svg)
+![svg](../../media/Prelims_files/Prelims_27_7.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_8.svg)
+![svg](../../media/Prelims_files/Prelims_27_8.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_9.svg)
+![svg](../../media/Prelims_files/Prelims_27_9.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_10.svg)
+![svg](../../media/Prelims_files/Prelims_27_10.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_11.svg)
+![svg](../../media/Prelims_files/Prelims_27_11.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_12.svg)
+![svg](../../media/Prelims_files/Prelims_27_12.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_13.svg)
+![svg](../../media/Prelims_files/Prelims_27_13.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_14.svg)
+![svg](../../media/Prelims_files/Prelims_27_14.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_15.svg)
+![svg](../../media/Prelims_files/Prelims_27_15.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_16.svg)
+![svg](../../media/Prelims_files/Prelims_27_16.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_17.svg)
+![svg](../../media/Prelims_files/Prelims_27_17.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_27_18.svg)
+![svg](../../media/Prelims_files/Prelims_27_18.svg)
 
 
 Now let's take a look at the 15-bit case.
@@ -498,79 +498,79 @@ for n in range(1, 20):
 ```
 
 
-![svg](../../img/Prelims_files/Prelims_29_0.svg)
+![svg](../../media/Prelims_files/Prelims_29_0.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_1.svg)
+![svg](../../media/Prelims_files/Prelims_29_1.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_2.svg)
+![svg](../../media/Prelims_files/Prelims_29_2.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_3.svg)
+![svg](../../media/Prelims_files/Prelims_29_3.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_4.svg)
+![svg](../../media/Prelims_files/Prelims_29_4.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_5.svg)
+![svg](../../media/Prelims_files/Prelims_29_5.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_6.svg)
+![svg](../../media/Prelims_files/Prelims_29_6.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_7.svg)
+![svg](../../media/Prelims_files/Prelims_29_7.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_8.svg)
+![svg](../../media/Prelims_files/Prelims_29_8.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_9.svg)
+![svg](../../media/Prelims_files/Prelims_29_9.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_10.svg)
+![svg](../../media/Prelims_files/Prelims_29_10.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_11.svg)
+![svg](../../media/Prelims_files/Prelims_29_11.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_12.svg)
+![svg](../../media/Prelims_files/Prelims_29_12.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_13.svg)
+![svg](../../media/Prelims_files/Prelims_29_13.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_14.svg)
+![svg](../../media/Prelims_files/Prelims_29_14.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_15.svg)
+![svg](../../media/Prelims_files/Prelims_29_15.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_16.svg)
+![svg](../../media/Prelims_files/Prelims_29_16.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_17.svg)
+![svg](../../media/Prelims_files/Prelims_29_17.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_29_18.svg)
+![svg](../../media/Prelims_files/Prelims_29_18.svg)
 
 
 The 12-bit case works so much better than the 15 bit case that it might be worth considering trying a 9-bit case (512 colors).
@@ -596,79 +596,79 @@ for n in range(1, 20):
 ```
 
 
-![svg](../../img/Prelims_files/Prelims_31_0.svg)
+![svg](../../media/Prelims_files/Prelims_31_0.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_1.svg)
+![svg](../../media/Prelims_files/Prelims_31_1.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_2.svg)
+![svg](../../media/Prelims_files/Prelims_31_2.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_3.svg)
+![svg](../../media/Prelims_files/Prelims_31_3.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_4.svg)
+![svg](../../media/Prelims_files/Prelims_31_4.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_5.svg)
+![svg](../../media/Prelims_files/Prelims_31_5.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_6.svg)
+![svg](../../media/Prelims_files/Prelims_31_6.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_7.svg)
+![svg](../../media/Prelims_files/Prelims_31_7.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_8.svg)
+![svg](../../media/Prelims_files/Prelims_31_8.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_9.svg)
+![svg](../../media/Prelims_files/Prelims_31_9.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_10.svg)
+![svg](../../media/Prelims_files/Prelims_31_10.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_11.svg)
+![svg](../../media/Prelims_files/Prelims_31_11.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_12.svg)
+![svg](../../media/Prelims_files/Prelims_31_12.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_13.svg)
+![svg](../../media/Prelims_files/Prelims_31_13.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_14.svg)
+![svg](../../media/Prelims_files/Prelims_31_14.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_15.svg)
+![svg](../../media/Prelims_files/Prelims_31_15.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_16.svg)
+![svg](../../media/Prelims_files/Prelims_31_16.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_17.svg)
+![svg](../../media/Prelims_files/Prelims_31_17.svg)
 
 
 
-![svg](../../img/Prelims_files/Prelims_31_18.svg)
+![svg](../../media/Prelims_files/Prelims_31_18.svg)
 
 
 Okay so we should use 12-bit. Although using 9-bit color does make it easier for the system to identify similar colors, there's a loss of nuance in some of these topics that makes it difficult to tell some of the topics apart. For the final analysis, we should use Latent Dirichlet Allocation with a larger dataset and 12-bit color depth colorgrams. I'll have to write new scraping algorithms that can handle the large load, and run on the datasets in a more automated way. We should probably use 18 topics sincce it made for better decompositions in this subset. 

@@ -6,11 +6,62 @@
     <description>Recent content in Projects on Coen D. Needell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy {2019}</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 17:09:00 -0700</lastBuildDate>
+    <copyright>&amp;copy {2020}</copyright>
+    <lastBuildDate>Sat, 24 Oct 2020 17:04:31 -0500</lastBuildDate>
     
 	<atom:link href="https://www.coeneedell.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Computer Vision for Memorability</title>
+      <link>https://www.coeneedell.com/projects/memnet/</link>
+      <pubDate>Sat, 24 Oct 2020 17:04:31 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/memnet/</guid>
+      <description>Info Reimplemementing and testing Aditya Khosla&amp;rsquo;s MemNet[1], and beyond.
+Goals Memnet has been difficult to access since Dr. Khosla&amp;rsquo;s departure from the academic world. We would like to implement it so that we can use his work for our own research. The short term goal is to simply get it working. In the long term we&amp;rsquo;d like to improve upon the architecture using pre-training, and possibly some other progress in neural network architecture that has been made since 2015.</description>
+    </item>
+    
+    <item>
+      <title>Accelerated Gammatones</title>
+      <link>https://www.coeneedell.com/projects/accelerated_gammatones/</link>
+      <pubDate>Tue, 12 May 2020 14:37:01 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/accelerated_gammatones/</guid>
+      <description>Last winter, I worked on a personal project I call ongaku (from the Japanese for &amp;lsquo;music&amp;rsquo;). This was an attempt to use manifold learning to create a metric space for music. The preprocessing relied heavily on a method called Gammatone Cepstrum Analysis. This method was intended to replace Mel Frequency Cepstral Coefficients. Where Mel Frequency is a logarithmic transformation of sound frequency, in an attempt to simulate human perception of sound.</description>
+    </item>
+    
+    <item>
+      <title>Computational Rupahistory</title>
+      <link>https://www.coeneedell.com/projects/computational_patahistory/</link>
+      <pubDate>Tue, 12 May 2020 14:36:28 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/computational_patahistory/</guid>
+      <description>This is an ongoing project to create 4X-style simulations of civilizations in a simulated world. This is intended to be a long-term project, that I will add to over the course of a long period, when I have some free time.
+Some Background: Rupahistory is a portmantau from the Maori word &amp;ldquo;rūpahu&amp;rdquo; meaning &amp;ldquo;fake&amp;rdquo; or &amp;ldquo;liar&amp;rdquo; and the Greek &amp;ldquo;historia&amp;rdquo; meaning history.
+Warning: The following discussion is boring. I suggest skipping straight to &amp;ldquo;The Map&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Bandcamp Album Cover Analysis</title>
+      <link>https://www.coeneedell.com/projects/bandcamp_analysis/</link>
+      <pubDate>Fri, 06 Mar 2020 15:12:26 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/bandcamp_analysis/</guid>
+      <description>This is a project to look into the question:
+ How do indie musicians use visual signs to indicate their subgenre?
+ The main functions are in bandcamp_webtools.py, and do basic web scraping. Analysis will be done in the jupyter notebooks Proposal.ipynb, Prelims.ipynb, and Analysis.ipynb. These will also be uploaded as blog posts to my website. The github repository can be found here.
+The Exploratory analysis (corresponding to Proposal.ipynb) can also be found at this blog post.</description>
+    </item>
+    
+    <item>
+      <title>Ongaku</title>
+      <link>https://www.coeneedell.com/projects/ongaku/</link>
+      <pubDate>Thu, 23 Jan 2020 10:41:17 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/ongaku/</guid>
+      <description>Overview Ongaku is a method for creating playlists programmatically, using only the content of the song alone. It uses gammatone cepstral analysis to create unique matrices to represent each song. A gammatone cepstrum is similar to the more common spectra used for audio analysis. Instead of doing a Fourier transform, we do a reverse Fourier transform, and then apply a transformation according to the gammatone function. This function was designed to mimic the signals sent to the brain through the cochlear nerve, the nerve which connects the ear to the brain.</description>
+    </item>
     
     <item>
       <title>Fluxx for Robots</title>
@@ -18,7 +69,7 @@
       <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
       
       <guid>https://www.coeneedell.com/projects/fluxx-for-robots/</guid>
-      <description>Fluxx Introduction: Fluxx is a mildly popular card game. All things considered, it&#39;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
+      <description>Introduction: Fluxx is a mildly popular card game. All things considered, it&amp;rsquo;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
     </item>
     
   </channel>

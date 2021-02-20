@@ -43,10 +43,10 @@ a \oplus b = \alpha \delta a + b
 <h1 id="results">Results</h1>
 <p>In comparison with the detly implementation, testing across all of the songs in the album Traffic and Weather by Fountains of Wayne <span class="citation" data-cites="wayneTraffic2007">(Wayne 2007)</span>. These songs are 2 minutes, 58 seconds on average. On my laptop, which has an Intel Core i7-7700HQ CPU @ 2.8GHzx8 processor and a GeForce GTX 1080 Max-Q GPU, the detly implementation (serial) takes 7.5 seconds to create a 16-level Cochleagram (16 gammatone filtrations) for a single song on average. The GPU implementation takes 1.75 seconds for a single song on average. This is a little more than a 4x speedup.</p>
 <figure>
-<img src="../../img/gammatones/oldcoch.png" title="Old Cochleagram" alt="Figure 1: The cochleagram created by the serial implementation" /><figcaption>Figure 1: The cochleagram created by the serial implementation</figcaption>
+<img src="../../media/gammatones/oldcoch.png" title="Old Cochleagram" alt="Figure 1: The cochleagram created by the serial implementation" /><figcaption>Figure 1: The cochleagram created by the serial implementation</figcaption>
 </figure>
 <figure>
-<img src="../../img/gammatones/newCoch.png" title="New Cochleagram" alt="Figure 2: The cochleagram created by the GPU implementation" /><figcaption>Figure 2: The cochleagram created by the GPU implementation</figcaption>
+<img src="../../media/gammatones/newCoch.png" title="New Cochleagram" alt="Figure 2: The cochleagram created by the GPU implementation" /><figcaption>Figure 2: The cochleagram created by the GPU implementation</figcaption>
 </figure>
 <p>Figures 1 and 2 show the old and new implementation’s cochleagrams. Notice that the new implementation has a “squishy” quality to it. Which is expected since it’s a much less complicated implementation. Despite the lack of clear definition, a machine learning technique should still be able to identify aural features.</p>
 <h1 id="future">Future</h1>

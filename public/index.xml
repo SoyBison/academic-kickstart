@@ -6,19 +6,163 @@
     <description>Recent content on Coen D. Needell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy {2019}</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 17:09:00 -0700</lastBuildDate>
+    <copyright>&amp;copy {2020}</copyright>
+    <lastBuildDate>Tue, 16 Feb 2021 12:10:12 -0600</lastBuildDate>
     
 	<atom:link href="https://www.coeneedell.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fluxx for Robots</title>
-      <link>https://www.coeneedell.com/project/fluxx-for-robots/</link>
-      <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
+      <title>ResMem Release</title>
+      <link>https://www.coeneedell.com/post/resmemrelease/</link>
+      <pubDate>Tue, 16 Feb 2021 12:10:12 -0600</pubDate>
       
-      <guid>https://www.coeneedell.com/project/fluxx-for-robots/</guid>
-      <description>Fluxx Introduction: Fluxx is a mildly popular card game. All things considered, it&#39;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
+      <guid>https://www.coeneedell.com/post/resmemrelease/</guid>
+      <description>A user-ready version of ResMem is now available on PyPI! The model included in the package is designed to estimate the memorability of an input image but is not intended for feature space analysis. The model is optimized for accuracy by allowing the ResNet features to retrain. The model included in the resmem package has been dubbed &amp;ldquo;ResMemRetrain&amp;rdquo; for this reason. Statistically, the retrained model performs better than the model where ResNet is as-is, receiving a Spearman rank correlation of 0.</description>
+    </item>
+    
+    <item>
+      <title>Computer Vision for Memorability</title>
+      <link>https://www.coeneedell.com/projects/memnet/</link>
+      <pubDate>Sat, 24 Oct 2020 17:04:31 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/memnet/</guid>
+      <description>Info Reimplemementing and testing Aditya Khosla&amp;rsquo;s MemNet[1], and beyond.
+Goals Memnet has been difficult to access since Dr. Khosla&amp;rsquo;s departure from the academic world. We would like to implement it so that we can use his work for our own research. The short term goal is to simply get it working. In the long term we&amp;rsquo;d like to improve upon the architecture using pre-training, and possibly some other progress in neural network architecture that has been made since 2015.</description>
+    </item>
+    
+    <item>
+      <title>MemNet: Models for Predicting Image Memorability</title>
+      <link>https://www.coeneedell.com/post/memnetch1/</link>
+      <pubDate>Sat, 24 Oct 2020 16:43:39 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/memnetch1/</guid>
+      <description>Memnet1 was an attempt to build a neural network-based model to predict the memorability of an image. This attempt was carried out by Aditya Khosla at the Computer Science and Artificial Intelligence Labs at MIT to moderate success. It is the most commonly used neural network regression for this purpose, and has been used and cited in many research papers since publication. There are some problems, however. Memnet was built in Caffe, a deep learning framework which has been defunct since shortly after Memnet&amp;rsquo;s publication.</description>
+    </item>
+    
+    <item>
+      <title>Memnet Extras</title>
+      <link>https://www.coeneedell.com/appendix/memnet_extras/</link>
+      <pubDate>Sat, 24 Oct 2020 15:36:17 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/appendix/memnet_extras/</guid>
+      <description>MemNet class MemNet(nn.Module): def __init__(self): super(MemNet, self).__init__() self.relu = nn.ReLU() self.conv1 = nn.Conv2d(3, 48, kernel_size=(11, 11), stride=(4, 4)) self.pool1 = nn.MaxPool2d(kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=False) self.lrn1 = nn.LocalResponseNorm(5, alpha=1e-4, beta=0.75, k=1.0) self.conv2 = nn.Conv2d(48, 256, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=2) self.pool2 = nn.MaxPool2d(kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=False) self.lrn2 = nn.LocalResponseNorm(5, alpha=1e-4, beta=0.75, k=1.0) self.conv3 = nn.Conv2d(256, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=2) self.conv4 = nn.Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=2) self.</description>
+    </item>
+    
+    <item>
+      <title>Blaseball Ticker Analysis</title>
+      <link>https://www.coeneedell.com/post/blaseball_ticker_analysis/</link>
+      <pubDate>Sat, 01 Aug 2020 13:04:23 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/blaseball_ticker_analysis/</guid>
+      <description>Introduction In the last week, large swathes of the Internet have been enamored with the simulated sport of blaseball. Blaseball describes itself as &amp;ldquo;baseball at your mercy, baseball perfected&amp;rdquo;. I&amp;rsquo;ve been describing it as &amp;ldquo;Nightvale-esque simulated baseball with rules decided by a voting system&amp;rdquo;. It&amp;rsquo;s fun, that&amp;rsquo;s for sure. Blaseball saw a boom after being picked up by a number of news outlets, and a number of blaseball users thought &amp;ldquo;now, this is fun, but I want to know it like I know myself&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Accelerated Gammatones</title>
+      <link>https://www.coeneedell.com/post/gammatones/</link>
+      <pubDate>Thu, 11 Jun 2020 14:37:01 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/gammatones/</guid>
+      <description>Introduction Last winter, I worked on a personal project I call ongaku (from the Japanese for ‘music’). This was an attempt to use manifold learning to create a metric space for music. The preprocessing relied heavily on a method called (Valero and Alias 2012). This method was intended to replace Mel Frequency Cepstral Coefficients. Where Mel Frequency is a logarithmic transformation of sound frequency, in an attempt to simulate human perception of sound.</description>
+    </item>
+    
+    <item>
+      <title>Sex, Conspiracy, and Video Games: Urban Legends on the Internet</title>
+      <link>https://www.coeneedell.com/post/urban_legends/</link>
+      <pubDate>Tue, 09 Jun 2020 00:56:04 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/urban_legends/</guid>
+      <description>Introduction Urban Legends, or Contemporary Legends, are a type of folklore popularized by Jan Harold Brunvand in his book: The Vanishing Hitchhiker: American Urban Legends &amp;amp; Their Meanings. Urban Legends are considered to be the modern continuation of the human tradition of folklore and legends. Folklore does not occur exclusively in so-called primitive or traditional societies, and by studying modern folklore in the same way that we study the folklore</description>
+    </item>
+    
+    <item>
+      <title>Accelerated Gammatones</title>
+      <link>https://www.coeneedell.com/projects/accelerated_gammatones/</link>
+      <pubDate>Tue, 12 May 2020 14:37:01 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/accelerated_gammatones/</guid>
+      <description>Last winter, I worked on a personal project I call ongaku (from the Japanese for &amp;lsquo;music&amp;rsquo;). This was an attempt to use manifold learning to create a metric space for music. The preprocessing relied heavily on a method called Gammatone Cepstrum Analysis. This method was intended to replace Mel Frequency Cepstral Coefficients. Where Mel Frequency is a logarithmic transformation of sound frequency, in an attempt to simulate human perception of sound.</description>
+    </item>
+    
+    <item>
+      <title>Computational Rupahistory</title>
+      <link>https://www.coeneedell.com/projects/computational_patahistory/</link>
+      <pubDate>Tue, 12 May 2020 14:36:28 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/computational_patahistory/</guid>
+      <description>This is an ongoing project to create 4X-style simulations of civilizations in a simulated world. This is intended to be a long-term project, that I will add to over the course of a long period, when I have some free time.
+Some Background: Rupahistory is a portmantau from the Maori word &amp;ldquo;rūpahu&amp;rdquo; meaning &amp;ldquo;fake&amp;rdquo; or &amp;ldquo;liar&amp;rdquo; and the Greek &amp;ldquo;historia&amp;rdquo; meaning history.
+Warning: The following discussion is boring. I suggest skipping straight to &amp;ldquo;The Map&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Research Proposal on Urban Legends and the Internet</title>
+      <link>https://www.coeneedell.com/post/urban-legends-prop/</link>
+      <pubDate>Thu, 09 Apr 2020 00:56:04 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/urban-legends-prop/</guid>
+      <description>Research Proposal on Urban Legends and the Internet Introduction &amp;ldquo;Urban Legends&amp;rdquo; is a genre we often confer to fictional and semi-fictional stories that circulate through modern communities. Generally this describes stories that few people truly believe, but are still told and retold time and time again. These stories often have common features, they leverage the unintuitiveness of modern life, a sense of distant credibility (&amp;ldquo;This happened to a friend of a friend&amp;rdquo;), and in some cases a sociopolitical call-to-action.</description>
+    </item>
+    
+    <item>
+      <title>Color Analysis of Bandcamp Album Cover Art</title>
+      <link>https://www.coeneedell.com/post/bandcamp_writeup/</link>
+      <pubDate>Mon, 30 Mar 2020 15:19:58 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/bandcamp_writeup/</guid>
+      <description>Introduction The internet has allowed any artist to share their work with the world, and in many cases be paid for it. This is mostly a recent development, with the creation of online marketplaces, and patronage services. The defining marketplace for the indie music scene on the internet is Bandcamp. Although it has been difficult to find an estimate for how large this marketplace actually is, Bandcamp does report some information about how much money has been spent on their platform.</description>
+    </item>
+    
+    <item>
+      <title>Bandcamp Cover Art Preliminary Analysis</title>
+      <link>https://www.coeneedell.com/post/bandcamp_prelims/</link>
+      <pubDate>Sat, 07 Mar 2020 14:46:56 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/bandcamp_prelims/</guid>
+      <description>Preliminary Analysis This will document the process of doing preliminary analysis on bandcamp album covers. This is part of an ongoing project which can be found here and on github. The goals of this exploration are to look into the viability of using machine learning methods in this setting. Selected methods will be fully automated and utilized for the final analysis. The &#39;./covers/&#39; directory was generated from the album_cover_scrape function.</description>
+    </item>
+    
+    <item>
+      <title>Bandcamp Album Cover Analysis</title>
+      <link>https://www.coeneedell.com/projects/bandcamp_analysis/</link>
+      <pubDate>Fri, 06 Mar 2020 15:12:26 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/bandcamp_analysis/</guid>
+      <description>This is a project to look into the question:
+ How do indie musicians use visual signs to indicate their subgenre?
+ The main functions are in bandcamp_webtools.py, and do basic web scraping. Analysis will be done in the jupyter notebooks Proposal.ipynb, Prelims.ipynb, and Analysis.ipynb. These will also be uploaded as blog posts to my website. The github repository can be found here.
+The Exploratory analysis (corresponding to Proposal.ipynb) can also be found at this blog post.</description>
+    </item>
+    
+    <item>
+      <title>Bandcamp Album Cover Exploration</title>
+      <link>https://www.coeneedell.com/post/bandcamp_proposal/</link>
+      <pubDate>Thu, 05 Mar 2020 17:45:57 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/bandcamp_proposal/</guid>
+      <description>This is an ongoing project, full details are availible here and on github
+How do indie musicians use visual signs to indicate their subgenre? This exploration will work by gathering album covers from bandcamp.
+Running bandcamp_webtools.py will generate the ./covers folder and populate it with files which use the builtin pickle format. Each file has an album cover, and information about that release. This particular analysis uses 1100+ albums from 400+ artists, with a total size of ~ 4 GB.</description>
+    </item>
+    
+    <item>
+      <title>Plurals and ML</title>
+      <link>https://www.coeneedell.com/post/plurals-and-ml/</link>
+      <pubDate>Fri, 24 Jan 2020 16:39:07 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/post/plurals-and-ml/</guid>
+      <description>Plurals and Machine Learning Using older machine learning models to conjugate English verbs produced rather silly results. These models performed at an acceptable level for many words, but when given nonsense words as an input these models would produce humorous conjugations. For example, we have:
+    Verb Human Generated Past-Tense Machine Generated Past-Tense     mail mailed membled   conflict conflicted conflafted   wink winked wok   quiver quivered quess   satisfy satisfied sedderded   smairf smairfed sprurice   trilb tribled treelilt   smeej smeejed leefloag   frilg frilged freezled     Naturally, my girlfriend and I found this hilarious.</description>
+    </item>
+    
+    <item>
+      <title>Ongaku</title>
+      <link>https://www.coeneedell.com/projects/ongaku/</link>
+      <pubDate>Thu, 23 Jan 2020 10:41:17 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/projects/ongaku/</guid>
+      <description>Overview Ongaku is a method for creating playlists programmatically, using only the content of the song alone. It uses gammatone cepstral analysis to create unique matrices to represent each song. A gammatone cepstrum is similar to the more common spectra used for audio analysis. Instead of doing a Fourier transform, we do a reverse Fourier transform, and then apply a transformation according to the gammatone function. This function was designed to mimic the signals sent to the brain through the cochlear nerve, the nerve which connects the ear to the brain.</description>
     </item>
     
     <item>
@@ -27,7 +171,7 @@
       <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
       
       <guid>https://www.coeneedell.com/projects/fluxx-for-robots/</guid>
-      <description>Fluxx Introduction: Fluxx is a mildly popular card game. All things considered, it&#39;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
+      <description>Introduction: Fluxx is a mildly popular card game. All things considered, it&amp;rsquo;s actually fairly contentious. It has a score of 5.7 on Board Game Geek, but it has a serious cult following. This is a python implementation of version 5.0 of the Vanilla Fluxx card game. The full rules are available here. The core idea is that the players can play cards which change the rules of the game. Each turn, each player draws a certain number of cards and plays a certain number of cards.</description>
     </item>
     
   </channel>

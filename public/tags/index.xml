@@ -6,11 +6,137 @@
     <description>Recent content in Tags on Coen D. Needell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy {2019}</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 17:09:00 -0700</lastBuildDate>
+    <copyright>&amp;copy {2020}</copyright>
+    <lastBuildDate>Sat, 01 Aug 2020 13:04:23 -0500</lastBuildDate>
     
 	<atom:link href="https://www.coeneedell.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://www.coeneedell.com/tags/machine-learning/</link>
+      <pubDate>Sat, 01 Aug 2020 13:04:23 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIBR</title>
+      <link>https://www.coeneedell.com/tags/sibr/</link>
+      <pubDate>Sat, 01 Aug 2020 13:04:23 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/sibr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Splorts</title>
+      <link>https://www.coeneedell.com/tags/splorts/</link>
+      <pubDate>Sat, 01 Aug 2020 13:04:23 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/splorts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU Computing</title>
+      <link>https://www.coeneedell.com/tags/gpu-computing/</link>
+      <pubDate>Thu, 11 Jun 2020 14:37:01 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/gpu-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>https://www.coeneedell.com/tags/music/</link>
+      <pubDate>Thu, 11 Jun 2020 14:37:01 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scientific Tools</title>
+      <link>https://www.coeneedell.com/tags/scientific-tools/</link>
+      <pubDate>Thu, 11 Jun 2020 14:37:01 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/scientific-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cultural Patterns</title>
+      <link>https://www.coeneedell.com/tags/cultural-patterns/</link>
+      <pubDate>Tue, 09 Jun 2020 00:56:04 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/cultural-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Archaeology</title>
+      <link>https://www.coeneedell.com/tags/digital-archaeology/</link>
+      <pubDate>Tue, 09 Jun 2020 00:56:04 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/digital-archaeology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet Culture</title>
+      <link>https://www.coeneedell.com/tags/internet-culture/</link>
+      <pubDate>Tue, 09 Jun 2020 00:56:04 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/internet-culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urban Legends</title>
+      <link>https://www.coeneedell.com/tags/urban-legends/</link>
+      <pubDate>Tue, 09 Jun 2020 00:56:04 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/urban-legends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Color Analysis</title>
+      <link>https://www.coeneedell.com/tags/color-analysis/</link>
+      <pubDate>Mon, 30 Mar 2020 15:19:58 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/color-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning</title>
+      <link>https://www.coeneedell.com/tags/statistical-learning/</link>
+      <pubDate>Mon, 30 Mar 2020 15:19:58 -0500</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/statistical-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://www.coeneedell.com/tags/deep-learning/</link>
+      <pubDate>Fri, 24 Jan 2020 16:39:07 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language</title>
+      <link>https://www.coeneedell.com/tags/natural-language/</link>
+      <pubDate>Fri, 24 Jan 2020 16:39:07 -0600</pubDate>
+      
+      <guid>https://www.coeneedell.com/tags/natural-language/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Computational Game Theory</title>
@@ -18,15 +144,6 @@
       <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
       
       <guid>https://www.coeneedell.com/tags/computational-game-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://www.coeneedell.com/tags/machine-learning/</link>
-      <pubDate>Tue, 31 Dec 2019 17:09:00 -0700</pubDate>
-      
-      <guid>https://www.coeneedell.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     

@@ -14,13 +14,13 @@ pip install resmem
 
 ResMem is a deep learning model built in PyTorch for estimating the memorability of an image. It uses the classic image classification architecture ResNet as a feature space and a Convolutional Neural Network feature space based on AlexNet. Then, using a series of linear transformations, estimations of memorability are generated from these features.
 
-![ResMem Architecture](../../img/memnet/ResMem.jpg)
+![ResMem Architecture](../../media/memnet/ResMem.jpg)
 
 If you're only using `resmem` to estimate image memorability, you can expect that most of your predictions will be more accurate than the figures mentioned earlier. However, it may be useful to know how the model behaves more broadly. This section is intended to elucidate this. ResMemRetrain, as tested on a random selection of images from LaMem[^1] and MemCat[^2], has an average "inaccuracy" of about ten percent as discussed earlier, but there are some mitigating factors.
 
 The figure below shows two distributions of memorability scores. You will notice that ResMemRetrain's predictions "clip" below 0.411. In other words, for the bottom ~0.5% of images, the model predicts their memorability as 0.411. This phenomenon comes from limited data in the low-memorability region and the mathematical nature of the memorability score. Even expanding the low memorability region to below 0.5, it still only contains 3% of our images.
 
-![ResMemRetrain Distributions](../../img/memnet/restest.png)
+![ResMemRetrain Distributions](../../media/memnet/restest.png)
 
 Because these ultra-low memorability images are rare, and we have such little data on them, even a deep learning model like ResMemRetrain struggles to predict their memorability accurately. Considering only images with measured memorability above 0.5, which is roughly 97% of images across LaMem and MemCat, the average inaccuracy falls to 0.05.
 
