@@ -9264,3 +9264,9 @@ img[src$='#floatright'] {
 
 figcaption {
   text-align: center; }
+
+.dm-safe-img {
+  display: block; }
+
+.dark .dm-safe-img {
+  filter: invert(1); }

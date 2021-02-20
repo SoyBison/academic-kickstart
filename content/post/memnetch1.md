@@ -2,6 +2,7 @@
 title: "MemNet: Models for Predicting Image Memorability"
 date: 2020-10-24T16:43:39-05:00
 draft: false
+diagram: true
 ---
  
 Memnet[^1] was an attempt to build a neural network-based model to predict the memorability of an image. This attempt was carried out by Aditya Khosla at the Computer Science and Artificial Intelligence Labs at MIT to moderate success. It is the most commonly used neural network regression for this purpose, and has been used and cited in many research papers since publication. There are some problems, however. Memnet was built in Caffe, a deep learning framework which has been defunct since shortly after Memnet's publication. Memnet was trained on LaMem, a dataset to which public access has been restricted, and the original author, Aditya Khosla, is difficult to get a hold of. For the past couple of months I, under the auspices of the Brain Bridge Lab at the University of Chicago, have been investigating the model itself, as well as making some tweaks to utilize newer techniques and hardware access to solve the same problem.
@@ -33,9 +34,8 @@ This further implies that MemNet is probably not as generalizable as previously 
 ## The New Old Model
 
 Let's take a swing at modernizing MemNet. Running a Caffe Model downloaded from the Internet is largely plug-and-play. We don't need any knowledge of the model's architecture or anything to get it to work, it's just a function that takes in a photo and outputs a number. To rebuild the thing in PyTorch, however, we may need to put some thought in.
-<center>
 
-![Memnet Architecture](../../media/memnet/MemNet.jpg)
+<img id="screenshot" src="/media/memnet/MemNet.png" class="dm-safe-img"/>
 
 A skeleton diagram of the layer-structure of MemNet. It's designed to mimic the hugely successful image classifier AlexNet, which consisted of a few convolutional layers followed by 3 fully connected layers. In reality, the convolutional features of MemNet differ slightly from that of AlexNet. </center>
 
@@ -61,11 +61,11 @@ Historically, the next big advancement in using neural networks for computer vis
 
 For the following discussion, while ResMem is initialized to a pre-trained optimum, I have allowed it to retrain for our problem. The thought is that given a larger set of parameters the final model *should* be more generalizable. Using weights and biases, we can run a hyperparameter sweep.
 
-<center>
+<>
 
 ![ResMem Testing](../../media/memnet/resnetsweep.png)
 
-</center>
+</>
 
 Here we can see much much higher peaks, reaching into the range of 0.66-0.67! All of these runs were both trained and validated on a dataset that was constructed from both MemCat and LaMem databases.
 
